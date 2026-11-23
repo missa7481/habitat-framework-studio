@@ -4,7 +4,11 @@
 
 Explore how environmental data, Earth observation embeddings and spatial models affect held-out performance in global mosquito habitat research. The Overview compares 44 model configurations evaluated on the same 20 splits. In the retrospective five-category report-composition study, the environmental-shrinkage variant of HiCo-Fuse 2 had the lowest mean log loss. Its advantage was 1.36% over the 105-variable random forest and 0.35% over the forest with the same 117 source variables. Scientific interpretation depends on the outcome, metric and region held out.
 
-Use the table to switch the evaluation design, metric or reference forest. The model designer, experiment registry, input-coverage map and broad-sector performance map are available from the navigation bar. The map panels describe input availability and held-out sector-level results.
+**Explore** opens the geographic workspace. Switch between 2024 environmental input availability and model errors across six held-out sectors. The optional Natural Earth backdrop supplies terrain context. [Map and cartography sources](research/map-context.md)
+
+**Story** walks through the observations, architecture, benchmark and geographic transfer in four illustrated chapters. **Benchmark** provides the sortable results, experiments, ablations and model designer. **Methods** opens a field guide to the maps and metrics with links to the study protocol. [Research story](https://missa7481.github.io/habitat-framework-studio/#story) · [Benchmark](https://missa7481.github.io/habitat-framework-studio/#overview)
+
+The map-first layout, mode navigation and methods drawer draw on the interaction design of the Ashburn Heat Twin. [Design reference](https://alanhuang116.github.io/ashburn-heat-twin/#live)
 
 ## Open the website
 

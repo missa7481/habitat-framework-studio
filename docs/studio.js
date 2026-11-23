@@ -92,12 +92,6 @@
       '<div class="grid"><section class="panel"><h2>Choose a contrast</h2><select class="wide" id="contrast" aria-label="Component contrast">'+opts(contrasts.map((r,i)=>[String(i),r.title]),'3')+'</select><div id="contrast-definition"></div></section><section class="panel" id="contrast-data" aria-live="polite"></section></div><div class="research-band"><div><h3>Selection has its own test</h3><p>The prespecified procedure needed four strict wins in the primary partition. It won three and tied once against the matched logistic model.</p></div>'+linkBtn(go('macro-primary','all-family-rsi-cycle-2'),'Inspect the selector','plain')+'</div>';
     function render(){const r=contrasts[Number(id('contrast').value)];id('contrast-definition').innerHTML=spec([['Candidate',r.candidate],['Comparison',r.reference]])+'<p>'+esc(r.meaning)+'</p><p class="micro">Difference = candidate loss minus comparison loss. Negative values favor the candidate.</p>';id('contrast-data').innerHTML='<h2>Paired log-loss differences</h2>'+r.outcomes.map(o=>'<div class="contrast-stats"><div><strong>'+signed(o.mean)+'</strong><span>Mean difference · '+(o.origin===0?'primary':'shifted')+'</span></div><div><strong>'+o.wins+' / '+o.n+'</strong><span>Strict wins · '+o.ties+' tied</span></div></div>').join('')+'<p class="micro">Units are nats per report. The two partitions do not provide twelve independent sectors.</p><div class="anchors">'+href(archive+'transfer/rsi_macro/sector_metrics.csv','Archived sector scores')+'</div>';};id('contrast').onchange=render;render();
   }
-  function coverage(view){
-    const bySector=view==='performance';
-    const switcher='<div class="map-tabs" aria-label="Map views"><a href="#coverage" '+(!bySector?'aria-current="page"':'')+'>Environmental input coverage</a><a href="#coverage/performance" '+(bySector?'aria-current="page"':'')+'>Held-out model performance</a></div>';
-    main.innerHTML=head('Global maps',bySector?'Geographic model performance':'Environmental input coverage',bySector?'Compare how two models performed when each broad region was held out. The colors summarize errors among observed reports in that sector.':'Inspect where the 2024 environmental feature stack was complete, or switch to the geographic comparison of model performance.')+switcher+'<div id="coverage-map"></div>';
-    if(bySector){window.renderSectorMap(id('coverage-map'));}else{window.renderCoverage(id('coverage-map'));}
-  }
   function protocol(section){
     const guide=(title,body,open=false)=>'<details'+(open?' open':'')+'><summary>'+title+'</summary>'+body+'</details>';
     main.innerHTML=head('Research protocol','How to evaluate an integrated habitat model','The research unit is a complete combination of data, representation, fusion, spatial structure and observation model. Each comparison needs a clearly defined target.')+
@@ -109,12 +103,51 @@
     guide('Release decision and independent validation','<p>The broad-area candidate reduced average loss against its matched logistic comparator. The nested procedure won three primary sectors and needed four. In the separate five-category reporting study, the released HiCo-Fuse 2 version had 0.09% lower mean loss than a conventional forest given the same historical inputs. It won nine of 20 splits. The forest ranked the reported categories better on average. <a href="#overview">Explore the model comparison</a>.</p><p>The next habitat test needs a previously unused regional survey with documented effort, reserved before model selection.</p>')+
     '</div><div class="stack"><section class="panel"><span class="pill">New environmental method test</span><h2 class="small-gap">Does a more complex spatial model help?</h2><p>We tested an integrated kernel model on forest-cover fraction across 1,309 coarse tiles. It combines separate feature representations, data fusion and spatially varying effects.</p><p><strong>'+landscape.rows.find(r=>r.id==='spatial-fusion').value.toFixed(2)+' vs '+landscape.rows.find(r=>r.id==='ridge').value.toFixed(2)+'</strong> percentage points of root mean squared error. The matched Bayesian ridge control had the lower error. This is evidence about forest-cover reconstruction.</p><div class="actions">'+linkBtn(go('landscape-primary','spatial-fusion'),'See controls and ablations','plain')+'</div></section><section class="panel"><h2>Metric definitions</h2><p><b>Average precision</b> weights precision by the increase in recall as each score threshold is reached. Higher values indicate better ranking within the sampled cohort.</p><p><b>Negative log likelihood</b> penalizes low probability assigned to the observed outcome. Lower values are better.</p><p><b>Root mean squared error</b> measures typical prediction error in the outcome’s units and gives larger errors more weight.</p></section></div></div>';
   }
-  let last='';
-  function route(){const raw=location.hash.slice(1);const [page='',arg='',row='']=raw.split('/');const active=({ablations:'experiments',designer:'designer',experiments:'experiments',coverage:'coverage',protocol:'protocol'})[page]||'overview';
-    document.querySelectorAll('nav a').forEach(a=>{if(a.hash==='#'+active)a.setAttribute('aria-current','page');else a.removeAttribute('aria-current');});
-    if(page==='designer')designer();else if(page==='experiments')experiments(arg,row);else if(page==='ablations')ablations();else if(page==='coverage')coverage(arg);else if(page==='protocol')protocol(arg);else overview();
-    document.title=(page==='ablations'?'Paired comparisons':active[0].toUpperCase()+active.slice(1))+' · Habitat Framework Studio';
-    if(last!==raw){window.scrollTo(0,0);if(last)main.focus({preventScroll:true});}last=raw;
+  const sheet=id('methods-sheet');
+  id('show-methods').addEventListener('click',()=>sheet.showModal());
+  sheet.addEventListener('click',event=>{
+    if(event.target.closest('a[href^="#"]')) sheet.close();
+    if(event.target===sheet){
+      const box=sheet.getBoundingClientRect();
+      if(event.clientX<box.left||event.clientX>box.right||event.clientY<box.top||event.clientY>box.bottom)sheet.close();
+    }
+  });
+  document.querySelector('.skip').addEventListener('click',event=>{
+    event.preventDefault();
+    main.focus({preventScroll:true});
+    main.scrollIntoView({block:'start'});
+  });
+  const sections={live:'Explore',story:'Research story',overview:'Benchmark results',experiments:'Experiments',
+    ablations:'Paired comparisons',designer:'Model designer',protocol:'Study design'};
+  const benchmarkPages=new Set(['overview','experiments','ablations','designer']);
+  function markCurrent(selector,current){
+    document.querySelectorAll(selector).forEach(link=>{
+      if(link.hash==='#'+current)link.setAttribute('aria-current','page');
+      else link.removeAttribute('aria-current');
+    });
+  }
+  let last=null;
+  function route(){
+    const raw=location.hash.slice(1);
+    const [name,arg='',row='']=raw.split('/');
+    const atlasRoute=['','live','coverage','explore'].includes(name);
+    const page=atlasRoute?'live':Object.hasOwn(sections,name)?name:'overview';
+    const mode=benchmarkPages.has(page)?'overview':page;
+    document.body.dataset.mode=mode;
+    id('benchmark-nav').hidden=mode!=='overview';
+    markCurrent('.mode-switch a',mode);
+    markCurrent('#benchmark-nav a',page);
+    if (sheet.open) sheet.close();
+    if(page==='live')window.renderHabitatAtlas(main,arg==='performance'?'performance':'coverage');
+    else if(page==='story')window.renderHabitatStory(main,arg);
+    else if(page==='designer')designer();
+    else if(page==='experiments')experiments(arg,row);
+    else if(page==='ablations')ablations();
+    else if(page==='protocol')protocol(arg);
+    else overview();
+    document.title=sections[page]+' · Habitat Framework Studio';
+    if(last!==null&&last!==raw){main.focus({preventScroll:true});window.scrollTo({top:0,behavior:'instant'});}
+    last=raw;
   }
   window.addEventListener('hashchange',route);route();
 })();
