@@ -1,0 +1,502 @@
+window.FRAMEWORK_LANDSCAPE = {
+  "id": "forest-kernels",
+  "title": "Forest-cover transfer experiment",
+  "unit": "1,309 four-degree tiles",
+  "endpoint": "Reconstruct the archived 2024 MODIS mapped forest fraction among eligible grid centers in each four-degree tile.",
+  "source": "https://github.com/missa7481/NASA_Global_Habitat_Mapping/tree/638702bbe096a77ceedc56fc88d6f90396022dfe/experiments/transfer/landscape",
+  "sourceLabel": "Archived environmental benchmark and reference-product provenance",
+  "protocol": "Six held-out longitude sectors with a 450 km buffer. Primary origin 0°. An overlapping partition shifted 28° checks sensitivity.",
+  "description": "A 2024 land-cover experiment crosses two learned feature representations, fusion of their kernels and a spatial model with two geographic scales. It measures reconstruction of a satellite-derived forest reference. Its scores apply only to that environmental target.",
+  "metric": "Root mean squared error",
+  "metricShort": "RMSE",
+  "units": "percentage points",
+  "direction": "lower",
+  "rows": [
+    {
+      "id": "forest",
+      "label": "Random forest",
+      "data": "Climate, terrain and Earth embedding",
+      "representation": "Original variables",
+      "spatial": "None",
+      "fusion": "Early concatenation",
+      "learner": "Random forest",
+      "value": 12.848389348617525,
+      "shiftedValue": 12.016685697300701,
+      "primarySectors": [
+        12.595032966897278,
+        11.947488075969998,
+        14.176139464437718,
+        10.659465489336865,
+        10.433109176571483,
+        17.27910091849181
+      ],
+      "shiftedSectors": [
+        11.111827139134789,
+        16.18734400409246,
+        10.642870732969843,
+        8.198405044211537,
+        15.056018051925497,
+        10.903649211470077
+      ],
+      "kind": "refit"
+    },
+    {
+      "id": "boost",
+      "label": "Histogram boosting",
+      "data": "Climate, terrain and Earth embedding",
+      "representation": "Original variables",
+      "spatial": "None",
+      "fusion": "Early concatenation",
+      "learner": "Histogram gradient boosting",
+      "value": 12.410250794134607,
+      "shiftedValue": 11.01759517411075,
+      "primarySectors": [
+        12.48065347048342,
+        11.623729530947307,
+        12.57854384034109,
+        11.66273700715073,
+        10.121183332867936,
+        15.994657583017164
+      ],
+      "shiftedSectors": [
+        10.652552451267026,
+        14.564226060593786,
+        10.65623005802212,
+        7.939921030968048,
+        13.195982909249384,
+        9.096658534564138
+      ],
+      "kind": "refit"
+    },
+    {
+      "id": "ridge",
+      "label": "Bayesian ridge",
+      "data": "Climate, terrain and Earth embedding",
+      "representation": "Original variables",
+      "spatial": "None",
+      "fusion": "Early concatenation",
+      "learner": "Bayesian ridge",
+      "value": 7.727724015824304,
+      "shiftedValue": 7.411042722900285,
+      "primarySectors": [
+        7.3723513479524865,
+        9.065538838614163,
+        6.293858898132056,
+        6.736896527494171,
+        8.419491045182736,
+        8.478207437570214
+      ],
+      "shiftedSectors": [
+        5.711376767052086,
+        8.302287251142399,
+        6.4304468701598605,
+        7.068107168719121,
+        9.53960940764375,
+        7.414428872684499
+      ],
+      "kind": "refit"
+    },
+    {
+      "id": "context-mix",
+      "label": "Archived cross-validated mixture",
+      "data": "Climate, terrain and Earth embedding",
+      "representation": "Original variables",
+      "spatial": "None",
+      "fusion": "Nested convex combination",
+      "learner": "Forest, boosting and Bayesian ridge",
+      "value": 7.703725180575624,
+      "shiftedValue": 7.266683221002967,
+      "primarySectors": [
+        7.537266148585755,
+        8.659897485513833,
+        6.371829753716193,
+        6.962165493301493,
+        8.005293255449368,
+        8.68589894688711
+      ],
+      "shiftedSectors": [
+        6.316522008011732,
+        8.22164404870912,
+        6.060360636862803,
+        6.774644317548568,
+        9.128792791720677,
+        7.098135523164898
+      ],
+      "kind": "archived context"
+    },
+    {
+      "id": "geo",
+      "label": "Geography alone",
+      "data": "Tile centers",
+      "representation": "Unit-sphere coordinates",
+      "spatial": "Two-scale spherical kernel",
+      "fusion": "Single view",
+      "learner": "Gaussian-process posterior mean",
+      "value": 23.453795625330844,
+      "shiftedValue": 23.234797022779887,
+      "primarySectors": [
+        21.326398798950287,
+        30.860094240657382,
+        15.111306746178638,
+        24.45149791527869,
+        20.03822928160698,
+        28.935246769313082
+      ],
+      "shiftedSectors": [
+        20.945589956373144,
+        29.287227693184192,
+        20.084757811825543,
+        23.582933472623843,
+        28.43247662735358,
+        17.07579657531901
+      ],
+      "kind": "refit"
+    },
+    {
+      "id": "physical",
+      "label": "Physical view only",
+      "data": "Climate and terrain",
+      "representation": "Fold-local principal components",
+      "spatial": "None",
+      "fusion": "Single view",
+      "learner": "Gaussian-process posterior mean",
+      "value": 17.889312261168286,
+      "shiftedValue": 17.152304147030815,
+      "primarySectors": [
+        17.06496123898693,
+        18.467076437374665,
+        19.030157473257873,
+        19.032850639434585,
+        17.090357371857365,
+        16.650470406098286
+      ],
+      "shiftedSectors": [
+        14.568297595673583,
+        21.293987546830202,
+        14.791295301472463,
+        17.12017130946726,
+        20.01331788750162,
+        15.126755241239753
+      ],
+      "kind": "refit"
+    },
+    {
+      "id": "embedding",
+      "label": "Earth embedding view only",
+      "data": "Earth embedding mean and spread",
+      "representation": "Fold-local principal components",
+      "spatial": "None",
+      "fusion": "Single view",
+      "learner": "Gaussian-process posterior mean",
+      "value": 11.013836599315411,
+      "shiftedValue": 11.282732901871887,
+      "primarySectors": [
+        12.71332249801601,
+        10.511228416096019,
+        9.600687194616944,
+        8.078480903489027,
+        8.683294819299379,
+        16.49600576437508
+      ],
+      "shiftedSectors": [
+        10.309348529058017,
+        13.10662883214791,
+        11.736226764740193,
+        8.303788647357301,
+        12.500939581547316,
+        11.739465056380578
+      ],
+      "kind": "refit"
+    },
+    {
+      "id": "linear",
+      "label": "Linear view combination",
+      "data": "Climate, terrain and Earth embedding",
+      "representation": "Fold-local principal components",
+      "spatial": "None",
+      "fusion": "Linear kernels",
+      "learner": "Gaussian-process posterior mean",
+      "value": 11.83051868123637,
+      "shiftedValue": 12.243569207283718,
+      "primarySectors": [
+        13.505592260717686,
+        11.678896799792756,
+        11.244336109621845,
+        9.134416631435695,
+        9.668920812358232,
+        15.750949473492007
+      ],
+      "shiftedSectors": [
+        10.50802796300338,
+        14.93427033368588,
+        13.565139219036599,
+        8.49973229665292,
+        12.829769406375938,
+        13.124476024947592
+      ],
+      "kind": "refit"
+    },
+    {
+      "id": "raw-product",
+      "label": "Uncompressed view interaction",
+      "data": "Climate, terrain and Earth embedding",
+      "representation": "Standardized original variables",
+      "spatial": "None",
+      "fusion": "Sum and product kernels",
+      "learner": "Gaussian-process posterior mean",
+      "value": 9.412184020309365,
+      "shiftedValue": 9.174245153703401,
+      "primarySectors": [
+        10.129736163984365,
+        8.883319278849463,
+        9.265264058820764,
+        7.460126694966249,
+        8.224751123178903,
+        12.50990680205644
+      ],
+      "shiftedSectors": [
+        8.189535888207716,
+        11.753872634678164,
+        8.433648473376858,
+        7.520766069864998,
+        10.918000321168998,
+        8.229647534923668
+      ],
+      "kind": "refit"
+    },
+    {
+      "id": "sum",
+      "label": "Additive view kernels",
+      "data": "Climate, terrain and Earth embedding",
+      "representation": "Fold-local principal components",
+      "spatial": "None",
+      "fusion": "Additive kernels",
+      "learner": "Gaussian-process posterior mean",
+      "value": 10.996266130684132,
+      "shiftedValue": 10.984248931268326,
+      "primarySectors": [
+        11.732120097482824,
+        10.594284988329965,
+        10.848492952005058,
+        8.404501933303463,
+        9.34735239404654,
+        15.050844418936943
+      ],
+      "shiftedSectors": [
+        9.645745900868256,
+        13.763030603905257,
+        10.627586898565147,
+        8.39184310135203,
+        12.407615535570244,
+        11.069671547349017
+      ],
+      "kind": "refit"
+    },
+    {
+      "id": "product",
+      "label": "View interaction",
+      "data": "Climate, terrain and Earth embedding",
+      "representation": "Fold-local principal components",
+      "spatial": "None",
+      "fusion": "Sum and product kernels",
+      "learner": "Gaussian-process posterior mean",
+      "value": 10.67963442614257,
+      "shiftedValue": 10.514958772242137,
+      "primarySectors": [
+        12.022224231260244,
+        10.058952213282291,
+        10.495425678893904,
+        7.960025717660596,
+        9.014040331943816,
+        14.527138383814576
+      ],
+      "shiftedSectors": [
+        9.73822510943919,
+        12.769809867180584,
+        10.360030401033294,
+        7.888395559337821,
+        12.034641347282783,
+        10.298650349179137
+      ],
+      "kind": "refit"
+    },
+    {
+      "id": "spatial-main",
+      "label": "View interaction with spatial intercept",
+      "data": "Climate, terrain and Earth embedding",
+      "representation": "Fold-local principal components",
+      "spatial": "Two-scale spatial intercept",
+      "fusion": "Sum and product kernels",
+      "learner": "Gaussian-process posterior mean",
+      "value": 10.877926950987272,
+      "shiftedValue": 10.838645190412834,
+      "primarySectors": [
+        11.819722979867798,
+        10.185407231328716,
+        10.469773398713121,
+        9.165875756805244,
+        9.382022964318386,
+        14.244759374890355
+      ],
+      "shiftedSectors": [
+        9.335393939734212,
+        13.743293127970963,
+        9.997010803775218,
+        8.617640700601537,
+        12.57266264530289,
+        10.765869925092188
+      ],
+      "kind": "refit"
+    },
+    {
+      "id": "spatial-fusion",
+      "label": "Spatially varying multiview fusion",
+      "data": "Climate, terrain and Earth embedding",
+      "representation": "Fold-local principal components",
+      "spatial": "Two-scale spherical kernel with view interactions",
+      "fusion": "Sum and product kernels",
+      "learner": "Gaussian-process posterior mean",
+      "value": 11.649431144034075,
+      "shiftedValue": 11.661676868563134,
+      "primarySectors": [
+        12.317568689534667,
+        11.129023018405828,
+        11.066580680878323,
+        11.067779944433425,
+        9.632226046549459,
+        14.683408484402744
+      ],
+      "shiftedSectors": [
+        10.028026806989825,
+        15.41318134960507,
+        10.354930401346474,
+        9.568826381985799,
+        13.321498811799074,
+        11.283597459652556
+      ],
+      "kind": "refit"
+    }
+  ],
+  "components": {
+    "data": "28 climate and terrain means plus 64 Earth embedding means and 64 within-tile standard deviations",
+    "representation": "Training-fold scaling and separate 12- and 32-component principal component analyses",
+    "fusion": "Additive and multiplicative physical and Earth kernels",
+    "spatial": "Two geographic length scales allow associations to vary over space",
+    "learner": "Gaussian-process posterior mean with fixed regularization"
+  },
+  "decision": {
+    "candidate": "spatial-fusion",
+    "comparator": "ridge",
+    "primaryDifference": 3.92170712820977,
+    "shiftedDifference": 4.250634145662847,
+    "primaryWins": 0,
+    "sectors": 6,
+    "primarySectorDeltaRange": [
+      1.2127350013667222,
+      6.20520104683253
+    ],
+    "passed": false,
+    "criterion": "Describe a preliminary advantage only if the candidate reduces mean RMSE versus the same matched conventional comparator on both origins and reduces RMSE on at least four primary sectors. Report the strongest archived mixture separately. Do not choose a substitute candidate after looking at outer metrics."
+  },
+  "inference": "The experiment reuses a previously studied landscape and measures agreement with a mapped reference product. Six sectors and overlapping partitions limit uncertainty estimates. It supplies no mosquito validation.",
+  "provenance": {
+    "tilesSha256": "29e07d6c72355807fcea8858cff943097aa78cc864ebca3f3f138e4f14e3ded9",
+    "designSha256": "4a497377c452447f6cc6284a102545a4b0ab8771bc9fb26499a00865e41161ce",
+    "runnerSha256": "ce9c9592091e64f55beba1f447e5251db01e52e666ab3aa4a78cfef3ba1bcf44",
+    "numpy": "2.5.4",
+    "sklearn": "1.9.1",
+    "scipy": "1.18.1"
+  },
+  "audit": {
+    "nTiles": 1309,
+    "nHoldouts": 12,
+    "nRefitConfigurations": 12,
+    "perSector": [
+      {
+        "origin": 0,
+        "sector": 0,
+        "trainTiles": 1218,
+        "testTiles": 68,
+        "minDistanceKm": 497.1581697528438
+      },
+      {
+        "origin": 0,
+        "sector": 1,
+        "trainTiles": 973,
+        "testTiles": 287,
+        "minDistanceKm": 455.63494136884884
+      },
+      {
+        "origin": 0,
+        "sector": 2,
+        "trainTiles": 1097,
+        "testTiles": 167,
+        "minDistanceKm": 460.1312688803696
+      },
+      {
+        "origin": 0,
+        "sector": 3,
+        "trainTiles": 951,
+        "testTiles": 326,
+        "minDistanceKm": 460.1312688803697
+      },
+      {
+        "origin": 0,
+        "sector": 4,
+        "trainTiles": 992,
+        "testTiles": 270,
+        "minDistanceKm": 497.1581697528442
+      },
+      {
+        "origin": 0,
+        "sector": 5,
+        "trainTiles": 1088,
+        "testTiles": 191,
+        "minDistanceKm": 469.83043703174235
+      },
+      {
+        "origin": 28,
+        "sector": 0,
+        "trainTiles": 1126,
+        "testTiles": 148,
+        "minDistanceKm": 460.1312688803699
+      },
+      {
+        "origin": 28,
+        "sector": 1,
+        "trainTiles": 989,
+        "testTiles": 277,
+        "minDistanceKm": 491.1338046651433
+      },
+      {
+        "origin": 28,
+        "sector": 2,
+        "trainTiles": 1029,
+        "testTiles": 229,
+        "minDistanceKm": 455.63494136884896
+      },
+      {
+        "origin": 28,
+        "sector": 3,
+        "trainTiles": 981,
+        "testTiles": 275,
+        "minDistanceKm": 460.1312688803697
+      },
+      {
+        "origin": 28,
+        "sector": 4,
+        "trainTiles": 972,
+        "testTiles": 301,
+        "minDistanceKm": 497.1581697528447
+      },
+      {
+        "origin": 28,
+        "sector": 5,
+        "trainTiles": 1204,
+        "testTiles": 79,
+        "minDistanceKm": 499.06744557410315
+      }
+    ],
+    "allTraditionalScoresMatchArchive": true
+  }
+};

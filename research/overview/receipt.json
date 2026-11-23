@@ -1,0 +1,194 @@
+{
+  "sha256": "a605fe51deecc654874ff1c0cf346f2e6dc85a6841a4fca527f00ad07dbfa9d7",
+  "hashEncoding": "UTF-8 with LF line endings",
+  "registry": [
+    {
+      "id": "frozen-2024",
+      "title": "2024 spatial benchmark",
+      "winner": "64 embedding dimensions · Logistic regression",
+      "metric": "Average precision",
+      "score": 0.8111459187413176,
+      "gain": 2.419218599392817,
+      "baseline": "41 engineered variables · Random forest",
+      "baselineScore": 0.7919860450352297,
+      "refitted": 12,
+      "evaluated": 0,
+      "rescored": 0
+    },
+    {
+      "id": "survey-2025",
+      "title": "2025 US trap survey",
+      "winner": "19 bioclimatic variables · MaxNet",
+      "metric": "Average precision",
+      "score": 0.48101599303818465,
+      "gain": 38.4989265382656,
+      "baseline": "41 engineered variables · Random forest",
+      "baselineScore": 0.34730665793664883,
+      "refitted": 0,
+      "evaluated": 12,
+      "rescored": 0
+    },
+    {
+      "id": "representation-probes",
+      "title": "Supervised representation comparisons",
+      "winner": "Ecology-informed features · Random forest",
+      "metric": "Average precision",
+      "score": 0.8382447837387115,
+      "gain": 0.23266687723063686,
+      "baseline": "41 engineered variables · Random forest",
+      "baselineScore": 0.8362989929874164,
+      "refitted": 54,
+      "evaluated": 0,
+      "rescored": 0
+    },
+    {
+      "id": "masked-reconstruction",
+      "title": "Multimodal feature reconstruction",
+      "winner": "Balanced concatenation",
+      "metric": "Mean masked-view error",
+      "score": 0.28881845878506146,
+      "gain": -0.0,
+      "baseline": "Balanced concatenation",
+      "baselineScore": 0.28881845878506146,
+      "refitted": 6,
+      "evaluated": 0,
+      "rescored": 0
+    },
+    {
+      "id": "survey-history-austria2024",
+      "title": "Austrian 2024 repeated-visit histories",
+      "winner": "Two-rate Bayesian model",
+      "metric": "History negative log likelihood",
+      "score": 4.280316579689946,
+      "gain": 2.995368168233554,
+      "baseline": "Effort-only control",
+      "baselineScore": 4.412486804870544,
+      "refitted": 4,
+      "evaluated": 0,
+      "rescored": 0
+    },
+    {
+      "id": "survey-history-neon2025",
+      "title": "US 2025 repeated-visit histories",
+      "winner": "Climate forest with effort model",
+      "metric": "History negative log likelihood",
+      "score": 1.2538539217584934,
+      "gain": 6.19168050086316,
+      "baseline": "Effort-only control",
+      "baselineScore": 1.3366127103151342,
+      "refitted": 4,
+      "evaluated": 0,
+      "rescored": 0
+    },
+    {
+      "id": "landscape-primary",
+      "title": "Forest-cover method test · primary",
+      "winner": "Archived cross-validated mixture",
+      "metric": "Root mean squared error",
+      "score": 7.7037251805756375,
+      "gain": 0.3105550249921354,
+      "baseline": "Bayesian ridge",
+      "baselineScore": 7.727724015824304,
+      "refitted": 13,
+      "evaluated": 0,
+      "rescored": 0
+    },
+    {
+      "id": "landscape-shifted",
+      "title": "Forest-cover method test · shifted",
+      "winner": "Archived cross-validated mixture",
+      "metric": "Root mean squared error",
+      "score": 7.266683221003002,
+      "gain": 1.9478973107415574,
+      "baseline": "Bayesian ridge",
+      "baselineScore": 7.411042722900285,
+      "refitted": 13,
+      "evaluated": 0,
+      "rescored": 0
+    }
+  ],
+  "audit": {
+    "nativeHiCo": 3,
+    "historicalScores": 11670,
+    "compositionRounds": 7,
+    "fixedIterationTables": [
+      {
+        "phase": "it1",
+        "tableSha256": "558fe467471936305e45954c18c63cfbad0f4afbb4c4bb6cdf4e2a4bf0b726c3",
+        "aggregateRows": 180,
+        "maxLossDifference": 0.0
+      },
+      {
+        "phase": "it2",
+        "tableSha256": "be555f7d368ba23f3f4e4f3a0b4d08b8fd48a0f990b5f79562369333379cab2c",
+        "aggregateRows": 208,
+        "maxLossDifference": 0.0
+      },
+      {
+        "phase": "it3",
+        "tableSha256": "632dfd94eba7657240fc90450ff4d20b82a16f7adda569147e35c5b0da598bba",
+        "aggregateRows": 140,
+        "maxLossDifference": 0.0
+      },
+      {
+        "phase": "it3b",
+        "tableSha256": "c5d5e09894ecdadd180cf3228013715172a80ddf9ff78b26bf6e7963043b51e2",
+        "aggregateRows": 60,
+        "maxLossDifference": 0.0
+      },
+      {
+        "phase": "it4",
+        "tableSha256": "be4900c533b7c4baf1980a8fce7f7625e5f7b8875d6029f7e1c43785ebd53bb0",
+        "aggregateRows": 160,
+        "maxLossDifference": 0.0
+      },
+      {
+        "phase": "it5",
+        "tableSha256": "69c095ec01d843c156feb17271c37095921f46858d1ee02d282d3deecee6df1a",
+        "aggregateRows": 80,
+        "maxLossDifference": 0.0
+      },
+      {
+        "phase": "it6",
+        "tableSha256": "87e4ff3ab9955fac38596b8370387f0748626a0472e403162a8608fbe2059de8",
+        "aggregateRows": 40,
+        "maxLossDifference": 0.0
+      }
+    ],
+    "referenceFilesVerified": 179,
+    "archivedStudioProtocols": 14,
+    "nativeReceipts": [
+      {
+        "preset": "it7_pool4",
+        "split_count": 20,
+        "matched_rows": 280,
+        "original_script_sha256": "6e99a671feab42e32a6584eea2132f576efbda225af9be8f13f1ad651083be99",
+        "replayed_metrics_sha256": "21b71fe3a6ee3f57293289ef8f112f421627c07a1b47e1cbceedb875c639d45e"
+      },
+      {
+        "preset": "it7",
+        "split_count": 20,
+        "matched_rows": 280,
+        "original_script_sha256": "6e99a671feab42e32a6584eea2132f576efbda225af9be8f13f1ad651083be99",
+        "replayed_metrics_sha256": "c43a5a59da62f14d52ad0965fcbc8e5cc8c433426d18e72740b4ff508ee9d9f5"
+      },
+      {
+        "preset": "it7_b20",
+        "split_count": 20,
+        "matched_rows": 160,
+        "original_script_sha256": "6e99a671feab42e32a6584eea2132f576efbda225af9be8f13f1ad651083be99",
+        "replayed_metrics_sha256": "6aa9f3803b930a4ad08d4d93b1d510f27c78009a5f3c45082de550c74cc878d2"
+      }
+    ],
+    "sourceMatchedForestFits": 40,
+    "referenceBaselineScoresRescored": 369,
+    "otherRegistryRefits": 106,
+    "otherRegistryEvaluated": 12,
+    "otherRegistryRescored": 0,
+    "nestedDevelopmentFits": 504,
+    "frozenExternalModels": 12,
+    "broadAreaOuterFits": 96,
+    "broadAreaInnerFits": 474,
+    "broadAreaInnerAttempts": 480
+  }
+}

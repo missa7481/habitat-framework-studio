@@ -1,0 +1,1149 @@
+configuration,design,split,nll,auc,ece,evidence
+Baseline: GLM,block10,fold0,1.0701776615515255,0.6985836352679091,0.03466932701553663,Refitted on frozen splits
+Baseline: GLM,block10,fold1,1.0766975573290811,0.727250508976281,0.03701789986618726,Refitted on frozen splits
+Baseline: GLM,block10,fold2,0.9052342655745157,0.7424349626185033,0.048960537545349105,Refitted on frozen splits
+Baseline: GLM,block10,fold3,1.0138674328505652,0.7726718487139757,0.04205401661629455,Refitted on frozen splits
+Baseline: GLM,block10,fold4,0.884694491639621,0.7557137193715608,0.020894023813192084,Refitted on frozen splits
+Baseline: GLM,env,envC0,0.9694664367470722,0.6951085159089515,0.06119771431587647,Refitted on frozen splits
+Baseline: GLM,env,envC1,1.0775343265656374,0.668018400798209,0.05686681635203601,Refitted on frozen splits
+Baseline: GLM,env,envC2,1.1305671449878145,0.6374414358802925,0.04225877473405362,Refitted on frozen splits
+Baseline: GLM,env,envC3,1.36789196760193,0.7194145322450309,0.08504364404560434,Refitted on frozen splits
+Baseline: GLM,env,envC4,1.0488560332378924,0.6342121700125471,0.026553260124071137,Refitted on frozen splits
+Baseline: GLM,loro,Africa,1.7786463269106623,0.74629958004958,0.14778404123029762,Refitted on frozen splits
+Baseline: GLM,loro,Asia,1.2439301017250797,0.7253906119756526,0.07311575650746582,Refitted on frozen splits
+Baseline: GLM,loro,Europe,1.0995694814785377,0.714977538303775,0.09712904382129539,Refitted on frozen splits
+Baseline: GLM,loro,Latin America,1.6881644067406552,0.4919470265118585,0.0991306198680132,Refitted on frozen splits
+Baseline: GLM,loro,N America,1.1837900662982177,0.6481216768723023,0.05171053055197243,Refitted on frozen splits
+Baseline: GLM,loro,Oceania,1.214613726447053,0.6556216507435213,0.12024889632319996,Refitted on frozen splits
+Baseline: GLM,zone,Arid,1.2680127414626245,0.7387243120545286,0.07349702218114357,Refitted on frozen splits
+Baseline: GLM,zone,Cold,1.041993051031781,0.6934112187067664,0.09114043119873304,Refitted on frozen splits
+Baseline: GLM,zone,Temperate,1.3090719245410603,0.6157325921664796,0.05982233789809983,Refitted on frozen splits
+Baseline: GLM,zone,Tropical,1.3428406359798004,0.6521524328865409,0.07055819205823106,Refitted on frozen splits
+Baseline: GatedMoE,block10,fold0,1.0875597118009406,0.7235194521977485,0.028708778340490307,Refitted on frozen splits
+Baseline: GatedMoE,block10,fold1,1.071031686175621,0.7371371428795475,0.04322269869968499,Refitted on frozen splits
+Baseline: GatedMoE,block10,fold2,0.7785401904599938,0.7713803147210899,0.037175366147175315,Refitted on frozen splits
+Baseline: GatedMoE,block10,fold3,0.9140128762289578,0.7852907061515542,0.023372230734604593,Refitted on frozen splits
+Baseline: GatedMoE,block10,fold4,0.8594524890427696,0.7700849134489526,0.019730183580898234,Refitted on frozen splits
+Baseline: GatedMoE,env,envC0,0.835189135242333,0.7252437470052935,0.045290570096903154,Refitted on frozen splits
+Baseline: GatedMoE,env,envC1,1.3165547155587762,0.6143959475738415,0.08839244531102976,Refitted on frozen splits
+Baseline: GatedMoE,env,envC2,1.0545604106801785,0.6434414353426022,0.04234407674325418,Refitted on frozen splits
+Baseline: GatedMoE,env,envC3,1.2871548577400584,0.6975409164659614,0.07874915006908509,Refitted on frozen splits
+Baseline: GatedMoE,env,envC4,1.0697134557233978,0.6364768274703687,0.04152386312973064,Refitted on frozen splits
+Baseline: GatedMoE,loro,Africa,1.9687340173358177,0.7468662356162357,0.13803764130107377,Refitted on frozen splits
+Baseline: GatedMoE,loro,Asia,1.2474780074652234,0.7328278030671633,0.08632115306395802,Refitted on frozen splits
+Baseline: GatedMoE,loro,Europe,1.3715135805889167,0.5379647197533773,0.12232403009095555,Refitted on frozen splits
+Baseline: GatedMoE,loro,Latin America,1.7425292624295168,0.5362818474260822,0.11014760182776766,Refitted on frozen splits
+Baseline: GatedMoE,loro,N America,1.1711162314016237,0.6719950352416145,0.0651616793816322,Refitted on frozen splits
+Baseline: GatedMoE,loro,Oceania,1.175400660702773,0.5939512692782951,0.12032903620486544,Refitted on frozen splits
+Baseline: GatedMoE,zone,Arid,1.3541060106927232,0.7016368834986431,0.1124721663922394,Refitted on frozen splits
+Baseline: GatedMoE,zone,Cold,0.9554124119006704,0.685599940993554,0.09441849772537964,Refitted on frozen splits
+Baseline: GatedMoE,zone,Temperate,1.264350685872251,0.6849592397839417,0.05649439977929441,Refitted on frozen splits
+Baseline: GatedMoE,zone,Tropical,1.2473927426382478,0.6759052637408473,0.06730617457846588,Refitted on frozen splits
+Baseline: HGB,block10,fold0,1.0262844897536825,0.734667611307009,0.03570310856070301,Refitted on frozen splits
+Baseline: HGB,block10,fold1,1.0490525434347333,0.7347930966908353,0.04005954332024257,Refitted on frozen splits
+Baseline: HGB,block10,fold2,0.8289595065154358,0.7448748093047507,0.038295607474910766,Refitted on frozen splits
+Baseline: HGB,block10,fold3,0.9098165938851283,0.8041696770652116,0.026135293328266918,Refitted on frozen splits
+Baseline: HGB,block10,fold4,0.8781403630708831,0.7363566995205402,0.01991748855395463,Refitted on frozen splits
+Baseline: HGB,env,envC0,0.7542820616153433,0.7054704261301757,0.014469004366910027,Refitted on frozen splits
+Baseline: HGB,env,envC1,0.9587457129117813,0.6629036339918835,0.04446357403197402,Refitted on frozen splits
+Baseline: HGB,env,envC2,1.177770301775639,0.6207657347246869,0.04798158330078867,Refitted on frozen splits
+Baseline: HGB,env,envC3,1.4177336158242133,0.6838537087554477,0.09781374098231123,Refitted on frozen splits
+Baseline: HGB,env,envC4,1.0404383231198904,0.6322688303832205,0.028783050305001445,Refitted on frozen splits
+Baseline: HGB,loro,Africa,1.9423562643057053,0.6872430867743369,0.1347135286605058,Refitted on frozen splits
+Baseline: HGB,loro,Asia,1.317609562124554,0.7365957846157818,0.10775716181241776,Refitted on frozen splits
+Baseline: HGB,loro,Europe,1.1738333541785821,0.645042746567835,0.08432942795267623,Refitted on frozen splits
+Baseline: HGB,loro,Latin America,1.5670979448995082,0.5543100998772099,0.10198135542062928,Refitted on frozen splits
+Baseline: HGB,loro,N America,1.1794774602392437,0.7166185254357259,0.07417498979602245,Refitted on frozen splits
+Baseline: HGB,loro,Oceania,1.076848207416063,0.6605364478146641,0.0982225202042228,Refitted on frozen splits
+Baseline: HGB,zone,Arid,1.3768106781005909,0.7060076216394011,0.10018468711934955,Refitted on frozen splits
+Baseline: HGB,zone,Cold,0.7796424542122329,0.6708321319199536,0.057902553396823625,Refitted on frozen splits
+Baseline: HGB,zone,Temperate,1.1703430585288503,0.6724888917385543,0.059243528362987775,Refitted on frozen splits
+Baseline: HGB,zone,Tropical,1.2795971927366816,0.6280058009821486,0.055974313117517625,Refitted on frozen splits
+Baseline: HiCo,block10,fold0,1.0408895026525886,0.7205684838965088,0.021840928991007466,Refitted on frozen splits
+Baseline: HiCo,block10,fold1,1.0006074894089738,0.757878395780756,0.03473494164306974,Refitted on frozen splits
+Baseline: HiCo,block10,fold2,0.8054118761164948,0.7705855231159908,0.03806424850025851,Refitted on frozen splits
+Baseline: HiCo,block10,fold3,0.9998524741018354,0.7780186299403156,0.030166355228221954,Refitted on frozen splits
+Baseline: HiCo,block10,fold4,0.8975843105831793,0.7404029887971797,0.022753863877030968,Refitted on frozen splits
+Baseline: HiCo,env,envC0,0.8772727962721292,0.7016729320624521,0.04279347441755098,Refitted on frozen splits
+Baseline: HiCo,env,envC1,1.0165170413693874,0.663980229549188,0.051821175754278075,Refitted on frozen splits
+Baseline: HiCo,env,envC2,1.2211981345242422,0.6023864821125777,0.058849324598706766,Refitted on frozen splits
+Baseline: HiCo,env,envC3,1.315681015840897,0.7088440729557864,0.07085138546328189,Refitted on frozen splits
+Baseline: HiCo,env,envC4,1.0466976079236843,0.6719994630166951,0.04901992881759864,Refitted on frozen splits
+Baseline: HiCo,loro,Africa,2.5088844975920814,0.6632327915140416,0.12481097429303115,Refitted on frozen splits
+Baseline: HiCo,loro,Asia,1.2940504524360432,0.6851443101703463,0.1008903753804125,Refitted on frozen splits
+Baseline: HiCo,loro,Europe,1.094074496031297,0.6368871370967454,0.07657476183591397,Refitted on frozen splits
+Baseline: HiCo,loro,Latin America,1.7840561934368349,0.6196613726831552,0.1090830347547595,Refitted on frozen splits
+Baseline: HiCo,loro,N America,1.3475620454530937,0.6713794566261567,0.08506449657358811,Refitted on frozen splits
+Baseline: HiCo,loro,Oceania,1.4087832674096277,0.6181488098319555,0.1381201423458557,Refitted on frozen splits
+Baseline: HiCo,zone,Arid,1.2806098585884087,0.7219307619178686,0.09974625630951355,Refitted on frozen splits
+Baseline: HiCo,zone,Cold,0.957420599838155,0.6799281139737473,0.08025200022218731,Refitted on frozen splits
+Baseline: HiCo,zone,Temperate,1.4319457221907095,0.6386099340122529,0.06819839041223796,Refitted on frozen splits
+Baseline: HiCo,zone,Tropical,1.234836492499405,0.6731513686695065,0.06841547734262164,Refitted on frozen splits
+Baseline: MLP,block10,fold0,1.0370522458493276,0.7279404537586918,0.030767206070727894,Refitted on frozen splits
+Baseline: MLP,block10,fold1,1.0537198151448666,0.7444284556956674,0.04054094577988617,Refitted on frozen splits
+Baseline: MLP,block10,fold2,0.7900912902414883,0.7751102824638774,0.04223370149985635,Refitted on frozen splits
+Baseline: MLP,block10,fold3,0.9396663951426505,0.794516439770347,0.03903883225254116,Refitted on frozen splits
+Baseline: MLP,block10,fold4,0.8688239903399301,0.743148735394503,0.021386333299279574,Refitted on frozen splits
+Baseline: MLP,env,envC0,0.817566931994593,0.7356281664108468,0.04453621196569763,Refitted on frozen splits
+Baseline: MLP,env,envC1,0.9464744079433078,0.6849485063611683,0.0357579029865229,Refitted on frozen splits
+Baseline: MLP,env,envC2,1.1075319565897495,0.6326932022560025,0.05213663859535909,Refitted on frozen splits
+Baseline: MLP,env,envC3,1.2436406712632189,0.7153451551811479,0.06531838801819781,Refitted on frozen splits
+Baseline: MLP,env,envC4,1.0687352435477022,0.6457996524505094,0.04730558390982833,Refitted on frozen splits
+Baseline: MLP,loro,Africa,1.9293392886035483,0.7180364831927333,0.12585160449251356,Refitted on frozen splits
+Baseline: MLP,loro,Asia,1.2095829982186763,0.7470077942930972,0.09210550013513194,Refitted on frozen splits
+Baseline: MLP,loro,Europe,1.3675946115156292,0.5261038122980015,0.12088362378357875,Refitted on frozen splits
+Baseline: MLP,loro,Latin America,1.7193455277298448,0.5613361985291817,0.09666146970311816,Refitted on frozen splits
+Baseline: MLP,loro,N America,1.1261915167880603,0.6879269539278647,0.05188895449182661,Refitted on frozen splits
+Baseline: MLP,loro,Oceania,1.2176748180619625,0.6165836338419357,0.119651632535138,Refitted on frozen splits
+Baseline: MLP,zone,Arid,1.2736775501129318,0.7251787124143165,0.09153213713056299,Refitted on frozen splits
+Baseline: MLP,zone,Cold,0.7689163640252219,0.709513766177924,0.05282370512729402,Refitted on frozen splits
+Baseline: MLP,zone,Temperate,1.2361917397403563,0.6926917628432322,0.05679249856483957,Refitted on frozen splits
+Baseline: MLP,zone,Tropical,1.1863335514268176,0.6660818645353821,0.05095024805860126,Refitted on frozen splits
+Baseline: MLP+Coords,block10,fold0,1.026443877957896,0.7294394914150547,0.018278414188189946,Refitted on frozen splits
+Baseline: MLP+Coords,block10,fold1,1.0071184419306005,0.7548910187072818,0.03877943489302547,Refitted on frozen splits
+Baseline: MLP+Coords,block10,fold2,0.7733315979128745,0.777348923915274,0.03320446462173697,Refitted on frozen splits
+Baseline: MLP+Coords,block10,fold3,0.9266503177120274,0.7944969033985709,0.03944446477462864,Refitted on frozen splits
+Baseline: MLP+Coords,block10,fold4,0.8518611308465167,0.7350576776302082,0.019517337692413272,Refitted on frozen splits
+Baseline: MLP+Coords,env,envC0,0.7840096711573715,0.7497812669353003,0.04467484155861789,Refitted on frozen splits
+Baseline: MLP+Coords,env,envC1,0.9286602407317847,0.6839087718054526,0.03338849909301716,Refitted on frozen splits
+Baseline: MLP+Coords,env,envC2,1.2042093502427658,0.6108188731226115,0.05653750295298074,Refitted on frozen splits
+Baseline: MLP+Coords,env,envC3,1.1914616918449688,0.7284997997815117,0.04849891611583322,Refitted on frozen splits
+Baseline: MLP+Coords,env,envC4,1.0114743672077746,0.6535446556307974,0.029012471782380533,Refitted on frozen splits
+Baseline: MLP+Coords,loro,Africa,1.7070452240158573,0.7183490352240353,0.13057357654713572,Refitted on frozen splits
+Baseline: MLP+Coords,loro,Asia,1.2206732219310494,0.7425016819380954,0.07991759245814824,Refitted on frozen splits
+Baseline: MLP+Coords,loro,Europe,0.917904185873601,0.678550008503649,0.052319878081106795,Refitted on frozen splits
+Baseline: MLP+Coords,loro,Latin America,1.6265934755428302,0.5670925247965163,0.08067008253742519,Refitted on frozen splits
+Baseline: MLP+Coords,loro,N America,1.2005644073989763,0.7017010035526576,0.07557029166958669,Refitted on frozen splits
+Baseline: MLP+Coords,loro,Oceania,1.3154999937545444,0.633470367351364,0.13580933553224742,Refitted on frozen splits
+Baseline: MLP+Coords,zone,Arid,1.3395445222128837,0.6995056870339933,0.09035809448358781,Refitted on frozen splits
+Baseline: MLP+Coords,zone,Cold,0.7553304479784149,0.7026963307715904,0.0494343405126429,Refitted on frozen splits
+Baseline: MLP+Coords,zone,Temperate,1.3179493950574441,0.6831961320912187,0.05976747460060236,Refitted on frozen splits
+Baseline: MLP+Coords,zone,Tropical,1.1271954763412082,0.6863036841803005,0.04103042606810829,Refitted on frozen splits
+Baseline: Prior,block10,fold0,1.1547391414642334,0.5,0.011531522497534752,Refitted on frozen splits
+Baseline: Prior,block10,fold1,1.1605068445205688,0.5,0.04367547482252121,Refitted on frozen splits
+Baseline: Prior,block10,fold2,1.0599006414413452,0.5,0.013919397257268429,Refitted on frozen splits
+Baseline: Prior,block10,fold3,1.3073304891586304,0.5,0.053286392241716385,Refitted on frozen splits
+Baseline: Prior,block10,fold4,1.0542279481887817,0.5,0.02311418019235134,Refitted on frozen splits
+Baseline: Prior,env,envC0,0.9910749793052673,0.5,0.04096107557415962,Refitted on frozen splits
+Baseline: Prior,env,envC1,1.1006288528442383,0.5,0.048080045729875565,Refitted on frozen splits
+Baseline: Prior,env,envC2,1.2089648246765137,0.5,0.056408945471048355,Refitted on frozen splits
+Baseline: Prior,env,envC3,1.804135799407959,0.5,0.10924475640058517,Refitted on frozen splits
+Baseline: Prior,env,envC4,1.128393530845642,0.5,0.05141086131334305,Refitted on frozen splits
+Baseline: Prior,loro,Africa,2.125345230102539,0.5,0.15615887939929962,Refitted on frozen splits
+Baseline: Prior,loro,Asia,1.5939286947250366,0.5,0.11712498962879181,Refitted on frozen splits
+Baseline: Prior,loro,Europe,1.185456395149231,0.5,0.0869995504617691,Refitted on frozen splits
+Baseline: Prior,loro,Latin America,1.691952109336853,0.5,0.11154230684041977,Refitted on frozen splits
+Baseline: Prior,loro,N America,1.1699259281158447,0.5,0.026423731818795204,Refitted on frozen splits
+Baseline: Prior,loro,Oceania,1.021964192390442,0.5,0.09497559815645218,Refitted on frozen splits
+Baseline: Prior,zone,Arid,2.109311580657959,0.5,0.13956062495708466,Refitted on frozen splits
+Baseline: Prior,zone,Cold,0.9999090433120728,0.5,0.1030128002166748,Refitted on frozen splits
+Baseline: Prior,zone,Temperate,1.2426797151565552,0.5,0.07486462593078613,Refitted on frozen splits
+Baseline: Prior,zone,Tropical,1.283750295639038,0.5,0.03403550386428833,Refitted on frozen splits
+Baseline: RF,block10,fold0,1.0195835425319075,0.7477201621670372,0.036174457069784983,Refitted on frozen splits
+Baseline: RF,block10,fold1,1.012049586688351,0.7609601448710703,0.04641847160797895,Refitted on frozen splits
+Baseline: RF,block10,fold2,0.8298291893708014,0.7511576123525308,0.046559370707352686,Refitted on frozen splits
+Baseline: RF,block10,fold3,0.9274237179687322,0.8014819389482484,0.03906062786807493,Refitted on frozen splits
+Baseline: RF,block10,fold4,0.857641223449055,0.7675969230133859,0.011161440003041341,Refitted on frozen splits
+Baseline: RF,env,envC0,0.7482193445745905,0.7585862225200553,0.03229923773872726,Refitted on frozen splits
+Baseline: RF,env,envC1,0.947496427846999,0.704589946929086,0.04528507770502932,Refitted on frozen splits
+Baseline: RF,env,envC2,1.104462635946749,0.6536045817742153,0.05029703186753403,Refitted on frozen splits
+Baseline: RF,env,envC3,1.3940808411474221,0.6949431153238896,0.10256233252306642,Refitted on frozen splits
+Baseline: RF,env,envC4,0.9975354736129098,0.6761271056022874,0.021824213450138324,Refitted on frozen splits
+Baseline: RF,loro,Africa,1.735437077770886,0.7294650893088394,0.12691343705997704,Refitted on frozen splits
+Baseline: RF,loro,Asia,1.2920181772206019,0.7605279059419308,0.11843950849753368,Refitted on frozen splits
+Baseline: RF,loro,Europe,1.0678393767560996,0.7006947148542918,0.09021844597912956,Refitted on frozen splits
+Baseline: RF,loro,Latin America,1.4146127993019173,0.5974370664132723,0.09776341954262846,Refitted on frozen splits
+Baseline: RF,loro,N America,1.1459124693153724,0.7339660923034482,0.07185494731421092,Refitted on frozen splits
+Baseline: RF,loro,Oceania,1.1543998009314198,0.6590649898276977,0.11642112521017335,Refitted on frozen splits
+Baseline: RF,zone,Arid,1.4064638832890886,0.7224866331671627,0.11461638361718153,Refitted on frozen splits
+Baseline: RF,zone,Cold,0.8002864126817694,0.7088708231311441,0.06393865740150151,Refitted on frozen splits
+Baseline: RF,zone,Temperate,1.11562980430693,0.7063239045875456,0.05765543706016244,Refitted on frozen splits
+Baseline: RF,zone,Tropical,1.1398735042956476,0.6727361591797187,0.04365371471831808,Refitted on frozen splits
+Baseline: kNN-geo,block10,fold0,1.1532296604335748,0.664020238970744,0.037271609699707546,Refitted on frozen splits
+Baseline: kNN-geo,block10,fold1,1.0269785787800922,0.7299919256064243,0.04801356347991162,Refitted on frozen splits
+Baseline: kNN-geo,block10,fold2,0.7925381238957097,0.7673737697753,0.02676457637271135,Refitted on frozen splits
+Baseline: kNN-geo,block10,fold3,1.0473023290957924,0.7750795812468493,0.040568864996992644,Refitted on frozen splits
+Baseline: kNN-geo,block10,fold4,0.878558891879818,0.7277408186468253,0.01820850129887799,Refitted on frozen splits
+Baseline: kNN-geo,env,envC0,0.8799773278201767,0.691915897772365,0.04732540138219316,Refitted on frozen splits
+Baseline: kNN-geo,env,envC1,1.0220359854407368,0.6363677714567714,0.04901781526106985,Refitted on frozen splits
+Baseline: kNN-geo,env,envC2,1.2641354803264209,0.5888736764618694,0.04554031028638365,Refitted on frozen splits
+Baseline: kNN-geo,env,envC3,1.7995204468452963,0.6426918850664299,0.09321785204022927,Refitted on frozen splits
+Baseline: kNN-geo,env,envC4,1.0636618794934005,0.6592907469220082,0.034888031396830096,Refitted on frozen splits
+Baseline: kNN-geo,loro,Africa,2.3083462886591493,0.43373941452066456,0.24489382256235814,Refitted on frozen splits
+Baseline: kNN-geo,loro,Asia,2.610846781878844,0.5687061535278802,0.14506848243245105,Refitted on frozen splits
+Baseline: kNN-geo,loro,Europe,1.0035817210187157,0.675819863649184,0.057990111604061284,Refitted on frozen splits
+Baseline: kNN-geo,loro,Latin America,1.3561696054955208,0.5203963060578779,0.07466231631115587,Refitted on frozen splits
+Baseline: kNN-geo,loro,N America,1.3883128146477868,0.5763360784416273,0.08132757514155417,Refitted on frozen splits
+Baseline: kNN-geo,loro,Oceania,1.8008334181556616,0.3391406878310523,0.1924161828952845,Refitted on frozen splits
+Baseline: kNN-geo,zone,Arid,1.6049954263289636,0.6599965825249654,0.10570178133802442,Refitted on frozen splits
+Baseline: kNN-geo,zone,Cold,0.8185529861747339,0.6682023978339279,0.05708829475523558,Refitted on frozen splits
+Baseline: kNN-geo,zone,Temperate,1.2565218164134189,0.659613608539706,0.06820638496120084,Refitted on frozen splits
+Baseline: kNN-geo,zone,Tropical,1.1754091487683571,0.6386950727632388,0.034206231310873976,Refitted on frozen splits
+Fusion: Attn-support [block],block10,fold0,1.0386242866516113,0.7017302152675702,0.020480524748563766,Refitted on frozen splits
+Fusion: Attn-support [block],block10,fold1,1.0160548686981201,0.7646001456717687,0.0446033701300621,Refitted on frozen splits
+Fusion: Attn-support [block],block10,fold2,0.7669463157653809,0.7880762008122939,0.0429917573928833,Refitted on frozen splits
+Fusion: Attn-support [block],block10,fold3,0.9212952256202698,0.8061142034462285,0.03378304839134216,Refitted on frozen splits
+Fusion: Attn-support [block],block10,fold4,0.8689911961555481,0.7583621035608,0.023456480354070663,Refitted on frozen splits
+Fusion: Attn-support [block],env,envC0,0.7894477248191833,0.713496011828898,0.026025699451565742,Refitted on frozen splits
+Fusion: Attn-support [block],env,envC1,0.9413396716117859,0.6791167853002791,0.03424694389104843,Refitted on frozen splits
+Fusion: Attn-support [block],env,envC2,1.181586503982544,0.624581442883278,0.05208393931388855,Refitted on frozen splits
+Fusion: Attn-support [block],env,envC3,1.639220952987671,0.6805749177941295,0.08359190821647644,Refitted on frozen splits
+Fusion: Attn-support [block],env,envC4,1.0329725742340088,0.6851383675012859,0.03866272047162056,Refitted on frozen splits
+Fusion: Attn-support [block],loro,Africa,2.4148013591766357,0.6540760281385282,0.19159074127674103,Refitted on frozen splits
+Fusion: Attn-support [block],loro,Asia,1.5092030763626099,0.6938368243377114,0.11779817938804626,Refitted on frozen splits
+Fusion: Attn-support [block],loro,Europe,0.9724624156951904,0.6614011171418296,0.05860860273241997,Refitted on frozen splits
+Fusion: Attn-support [block],loro,Latin America,1.5083214044570923,0.5347402194795011,0.08741660416126251,Refitted on frozen splits
+Fusion: Attn-support [block],loro,N America,1.201190710067749,0.6790542749106131,0.05846363306045532,Refitted on frozen splits
+Fusion: Attn-support [block],loro,Oceania,1.1442559957504272,0.6126725509053086,0.11465930193662643,Refitted on frozen splits
+Fusion: Attn-support [block],zone,Arid,1.3323516845703125,0.7094687241281997,0.08329115062952042,Refitted on frozen splits
+Fusion: Attn-support [block],zone,Cold,0.7662684321403503,0.6893645723896644,0.04902905225753784,Refitted on frozen splits
+Fusion: Attn-support [block],zone,Temperate,1.2880398035049438,0.6784040675916996,0.05939093977212906,Refitted on frozen splits
+Fusion: Attn-support [block],zone,Tropical,1.1896998882293701,0.6898976694058301,0.0547814704477787,Refitted on frozen splits
+Fusion: Attn-support [mixed],block10,fold0,1.0544309616088867,0.709766082837213,0.02577873505651951,Refitted on frozen splits
+Fusion: Attn-support [mixed],block10,fold1,1.0263561010360718,0.7582509461269107,0.04790007695555687,Refitted on frozen splits
+Fusion: Attn-support [mixed],block10,fold2,0.7732195854187012,0.7737203328086335,0.04390835389494896,Refitted on frozen splits
+Fusion: Attn-support [mixed],block10,fold3,0.957618236541748,0.8057237983222167,0.03357230871915817,Refitted on frozen splits
+Fusion: Attn-support [mixed],block10,fold4,0.8831725120544434,0.7562919536613935,0.025985881686210632,Refitted on frozen splits
+Fusion: Attn-support [mixed],env,envC0,0.757418692111969,0.7062830799850304,0.02264384925365448,Refitted on frozen splits
+Fusion: Attn-support [mixed],env,envC1,0.9361892938613892,0.681522933495417,0.030572814866900444,Refitted on frozen splits
+Fusion: Attn-support [mixed],env,envC2,1.2166683673858643,0.605750124774134,0.05217231810092926,Refitted on frozen splits
+Fusion: Attn-support [mixed],env,envC3,1.5631368160247803,0.7015338056145488,0.07364156097173691,Refitted on frozen splits
+Fusion: Attn-support [mixed],env,envC4,1.0781804323196411,0.6744798590089356,0.050575338304042816,Refitted on frozen splits
+Fusion: Attn-support [mixed],loro,Africa,2.087557315826416,0.7468818796943797,0.14825133979320526,Refitted on frozen splits
+Fusion: Attn-support [mixed],loro,Asia,1.3942723274230957,0.716161929632078,0.10543601214885712,Refitted on frozen splits
+Fusion: Attn-support [mixed],loro,Europe,1.1131045818328857,0.6365569076768408,0.08579067140817642,Refitted on frozen splits
+Fusion: Attn-support [mixed],loro,Latin America,1.6099096536636353,0.56941601340154,0.09264923632144928,Refitted on frozen splits
+Fusion: Attn-support [mixed],loro,N America,1.1425189971923828,0.6768429463192988,0.04754415154457092,Refitted on frozen splits
+Fusion: Attn-support [mixed],loro,Oceania,1.1117666959762573,0.5894293030999007,0.10593768954277039,Refitted on frozen splits
+Fusion: Attn-support [mixed],zone,Arid,1.4101641178131104,0.720655855145177,0.10058455914258957,Refitted on frozen splits
+Fusion: Attn-support [mixed],zone,Cold,0.7404600977897644,0.6837780652474228,0.04163244366645813,Refitted on frozen splits
+Fusion: Attn-support [mixed],zone,Temperate,1.2957786321640015,0.6689814704499245,0.05936790257692337,Refitted on frozen splits
+Fusion: Attn-support [mixed],zone,Tropical,1.1231164932250977,0.6631461027432884,0.04070047661662102,Refitted on frozen splits
+Fusion: Decay [block],block10,fold0,1.025272250175476,0.7185302733030415,0.016149194911122322,Refitted on frozen splits
+Fusion: Decay [block],block10,fold1,1.0100888013839722,0.7623883671076938,0.04716572165489197,Refitted on frozen splits
+Fusion: Decay [block],block10,fold2,0.7587490677833557,0.7950330367148604,0.04095560312271118,Refitted on frozen splits
+Fusion: Decay [block],block10,fold3,0.9290288686752319,0.8086426161014442,0.03241223096847534,Refitted on frozen splits
+Fusion: Decay [block],block10,fold4,0.8661497235298157,0.7628015531011327,0.022023310884833336,Refitted on frozen splits
+Fusion: Decay [block],env,envC0,0.7372047901153564,0.7692480153153994,0.03446304053068161,Refitted on frozen splits
+Fusion: Decay [block],env,envC1,0.9397242069244385,0.6926115867329159,0.03474130108952522,Refitted on frozen splits
+Fusion: Decay [block],env,envC2,1.1548068523406982,0.6192555200895322,0.052356816828250885,Refitted on frozen splits
+Fusion: Decay [block],env,envC3,1.2973878383636475,0.7131002531878736,0.06455902755260468,Refitted on frozen splits
+Fusion: Decay [block],env,envC4,1.003814697265625,0.6882048480091897,0.03738512843847275,Refitted on frozen splits
+Fusion: Decay [block],loro,Africa,1.917932152748108,0.7583409299034299,0.15964825451374054,Refitted on frozen splits
+Fusion: Decay [block],loro,Asia,1.3263084888458252,0.6984569268368288,0.126931294798851,Refitted on frozen splits
+Fusion: Decay [block],loro,Europe,1.0261327028274536,0.6762028401267662,0.09359924495220184,Refitted on frozen splits
+Fusion: Decay [block],loro,Latin America,1.4407825469970703,0.532836158019401,0.09135784208774567,Refitted on frozen splits
+Fusion: Decay [block],loro,N America,1.1254653930664062,0.6908569234188278,0.05135258659720421,Refitted on frozen splits
+Fusion: Decay [block],loro,Oceania,1.073041558265686,0.7119369542505947,0.09931039065122604,Refitted on frozen splits
+Fusion: Decay [block],zone,Arid,1.3990404605865479,0.7167942186230529,0.11139386147260666,Refitted on frozen splits
+Fusion: Decay [block],zone,Cold,0.7999125719070435,0.6995752964356085,0.06169935315847397,Refitted on frozen splits
+Fusion: Decay [block],zone,Temperate,1.2442678213119507,0.6762305576986859,0.05821216478943825,Refitted on frozen splits
+Fusion: Decay [block],zone,Tropical,1.1006101369857788,0.6954059226748615,0.03911099210381508,Refitted on frozen splits
+Fusion: Decay [mixed],block10,fold0,1.0403698682785034,0.7180405284953938,0.017129600048065186,Refitted on frozen splits
+Fusion: Decay [mixed],block10,fold1,1.0214837789535522,0.7670994214814042,0.05062594264745712,Refitted on frozen splits
+Fusion: Decay [mixed],block10,fold2,0.7479379773139954,0.7935183353381999,0.03886546939611435,Refitted on frozen splits
+Fusion: Decay [mixed],block10,fold3,0.9481332302093506,0.8090632349311886,0.041371650993824005,Refitted on frozen splits
+Fusion: Decay [mixed],block10,fold4,0.8657402396202087,0.7672567014737517,0.024678237736225128,Refitted on frozen splits
+Fusion: Decay [mixed],env,envC0,0.6805582046508789,0.7749447742805993,0.02859789878129959,Refitted on frozen splits
+Fusion: Decay [mixed],env,envC1,0.9254509806632996,0.6960061665182704,0.029361210763454437,Refitted on frozen splits
+Fusion: Decay [mixed],env,envC2,1.158442735671997,0.6260918666345404,0.050195448100566864,Refitted on frozen splits
+Fusion: Decay [mixed],env,envC3,1.4163672924041748,0.7035799517120946,0.07713325321674347,Refitted on frozen splits
+Fusion: Decay [mixed],env,envC4,1.0487171411514282,0.672766392383271,0.04509801045060158,Refitted on frozen splits
+Fusion: Decay [mixed],loro,Africa,1.9550189971923828,0.7669204406704407,0.15330687165260315,Refitted on frozen splits
+Fusion: Decay [mixed],loro,Asia,1.408682942390442,0.7381762940024582,0.11193543672561646,Refitted on frozen splits
+Fusion: Decay [mixed],loro,Europe,1.098831295967102,0.6687186830745505,0.0929517149925232,Refitted on frozen splits
+Fusion: Decay [mixed],loro,Latin America,1.511491060256958,0.5633126905478263,0.09592270851135254,Refitted on frozen splits
+Fusion: Decay [mixed],loro,N America,1.0984433889389038,0.707129633959116,0.04111926630139351,Refitted on frozen splits
+Fusion: Decay [mixed],loro,Oceania,1.0037927627563477,0.7005247531518232,0.09166617691516876,Refitted on frozen splits
+Fusion: Decay [mixed],zone,Arid,1.5179082155227661,0.6936677608660808,0.11124547570943832,Refitted on frozen splits
+Fusion: Decay [mixed],zone,Cold,0.7654607892036438,0.701746504815481,0.05319739878177643,Refitted on frozen splits
+Fusion: Decay [mixed],zone,Temperate,1.233422875404358,0.6764071439434477,0.06435099244117737,Refitted on frozen splits
+Fusion: Decay [mixed],zone,Tropical,1.086226463317871,0.6737023653313646,0.03986699879169464,Refitted on frozen splits
+Fusion: Equal,block10,fold0,1.0122150052419705,0.7323034553041393,0.019273495314984478,Refitted on frozen splits
+Fusion: Equal,block10,fold1,1.0304790171032507,0.7549694637829925,0.04328719644320936,Refitted on frozen splits
+Fusion: Equal,block10,fold2,0.7851270789054354,0.7838206317042682,0.04571306525550957,Refitted on frozen splits
+Fusion: Equal,block10,fold3,0.9745227686758571,0.8080674838975694,0.04554555156952328,Refitted on frozen splits
+Fusion: Equal,block10,fold4,0.875630982923409,0.7612562754886892,0.02541905249812421,Refitted on frozen splits
+Fusion: Equal,env,envC0,0.7312662130596443,0.7501542202328537,0.030374557415124737,Refitted on frozen splits
+Fusion: Equal,env,envC1,0.9543613664218955,0.6888964831639157,0.040519232290614354,Refitted on frozen splits
+Fusion: Equal,env,envC2,1.1184346640688991,0.6381214400221874,0.05381256006686311,Refitted on frozen splits
+Fusion: Equal,env,envC3,1.2115971833185448,0.7299010049972815,0.06475027479985283,Refitted on frozen splits
+Fusion: Equal,env,envC4,1.0246094144593547,0.684997859256314,0.043445461497903924,Refitted on frozen splits
+Fusion: Equal,loro,Africa,1.8647268115272049,0.6846651612276611,0.17187788483466593,Refitted on frozen splits
+Fusion: Equal,loro,Asia,1.5175388733881123,0.7324599264556722,0.11863323205457299,Refitted on frozen splits
+Fusion: Equal,loro,Europe,1.0208670096135006,0.697203972079258,0.08746276040845416,Refitted on frozen splits
+Fusion: Equal,loro,Latin America,1.4025512936847484,0.5990704857426038,0.0861130555175922,Refitted on frozen splits
+Fusion: Equal,loro,N America,1.079609309453303,0.7085663298894049,0.04983470166152982,Refitted on frozen splits
+Fusion: Equal,loro,Oceania,1.0936923398041447,0.5728518809657583,0.10870742420368405,Refitted on frozen splits
+Fusion: Equal,zone,Arid,1.395815781591527,0.7239745817135063,0.1150933314430379,Refitted on frozen splits
+Fusion: Equal,zone,Cold,0.8050906506394742,0.6984226413012847,0.06406291021976185,Refitted on frozen splits
+Fusion: Equal,zone,Temperate,1.1936397933559446,0.6779013459758053,0.062016902288555185,Refitted on frozen splits
+Fusion: Equal,zone,Tropical,1.134672839084312,0.6984507317449757,0.04289246169509897,Refitted on frozen splits
+Fusion: Only:All (MLP),block10,fold0,1.0379106696850575,0.730784958997764,0.024546843306274827,Refitted on frozen splits
+Fusion: Only:All (MLP),block10,fold1,1.094485637527069,0.7260390290446468,0.038795179791113146,Refitted on frozen splits
+Fusion: Only:All (MLP),block10,fold2,0.7999217496609938,0.7778138361494545,0.04031648361501227,Refitted on frozen splits
+Fusion: Only:All (MLP),block10,fold3,0.9120400184837408,0.786673225511376,0.022501517494356735,Refitted on frozen splits
+Fusion: Only:All (MLP),block10,fold4,0.885668789287326,0.749726040401481,0.02078230304779226,Refitted on frozen splits
+Fusion: Only:All (MLP),env,envC0,0.6926988084287109,0.7326325221232394,0.017531298966885274,Refitted on frozen splits
+Fusion: Only:All (MLP),env,envC1,0.9618598569561845,0.6863848703179399,0.03910972413697048,Refitted on frozen splits
+Fusion: Only:All (MLP),env,envC2,1.1029559467357029,0.6197779107495966,0.054867804246741286,Refitted on frozen splits
+Fusion: Only:All (MLP),env,envC3,1.2339423630829645,0.700808985972533,0.04602649428985843,Refitted on frozen splits
+Fusion: Only:All (MLP),env,envC4,1.0705284192431386,0.6418654762825631,0.044058587337875946,Refitted on frozen splits
+Fusion: Only:All (MLP),loro,Africa,1.7910285115098286,0.6782162397787397,0.1351988854809933,Refitted on frozen splits
+Fusion: Only:All (MLP),loro,Asia,1.2431918508097635,0.7200900753415029,0.09047673758077616,Refitted on frozen splits
+Fusion: Only:All (MLP),loro,Europe,0.9409102942162407,0.6958951226447746,0.07127247753559672,Refitted on frozen splits
+Fusion: Only:All (MLP),loro,Latin America,1.6644640550151095,0.5491766844254873,0.09578853883181287,Refitted on frozen splits
+Fusion: Only:All (MLP),loro,N America,1.3673402292930805,0.7219374292089137,0.10099999698736253,Refitted on frozen splits
+Fusion: Only:All (MLP),loro,Oceania,1.1822236342537187,0.6146978987870412,0.11633473943064636,Refitted on frozen splits
+Fusion: Only:All (MLP),zone,Arid,1.3511242893751771,0.6901322591043011,0.09378987137119349,Refitted on frozen splits
+Fusion: Only:All (MLP),zone,Cold,0.8088621645933483,0.7049684534723172,0.054243325755105425,Refitted on frozen splits
+Fusion: Only:All (MLP),zone,Temperate,1.3375857524794312,0.6529613801311462,0.0598636183180955,Refitted on frozen splits
+Fusion: Only:All (MLP),zone,Tropical,1.212928170311868,0.6817061584794741,0.06939406340108449,Refitted on frozen splits
+Fusion: Stack [block],block10,fold0,1.038236379623413,0.7025561660349509,0.02853121981024742,Refitted on frozen splits
+Fusion: Stack [block],block10,fold1,0.9692614078521729,0.7675175244889144,0.04404575750231743,Refitted on frozen splits
+Fusion: Stack [block],block10,fold2,0.7631667852401733,0.7927892744347749,0.046201933175325394,Refitted on frozen splits
+Fusion: Stack [block],block10,fold3,0.9352698922157288,0.8051051047981556,0.03246990218758583,Refitted on frozen splits
+Fusion: Stack [block],block10,fold4,0.8718031048774719,0.7620994001436294,0.02557838149368763,Refitted on frozen splits
+Fusion: Stack [block],env,envC0,0.7237848043441772,0.7674832379862677,0.03695034235715866,Refitted on frozen splits
+Fusion: Stack [block],env,envC1,0.9274472594261169,0.6799241908684189,0.03790543973445892,Refitted on frozen splits
+Fusion: Stack [block],env,envC2,1.0883146524429321,0.6421879118660064,0.041404787451028824,Refitted on frozen splits
+Fusion: Stack [block],env,envC3,1.2455127239227295,0.716168450609245,0.05817703157663345,Refitted on frozen splits
+Fusion: Stack [block],env,envC4,1.0176628828048706,0.6754907197116405,0.039071839302778244,Refitted on frozen splits
+Fusion: Stack [block],loro,Africa,2.203374147415161,0.6521773538961039,0.1658620536327362,Refitted on frozen splits
+Fusion: Stack [block],loro,Asia,1.65622079372406,0.699211341798704,0.14387066662311554,Refitted on frozen splits
+Fusion: Stack [block],loro,Europe,0.9067365527153015,0.7122197894426067,0.06277432292699814,Refitted on frozen splits
+Fusion: Stack [block],loro,Latin America,1.3468059301376343,0.5629415509448176,0.06630605459213257,Refitted on frozen splits
+Fusion: Stack [block],loro,N America,1.1500295400619507,0.6917083037997517,0.06309765577316284,Refitted on frozen splits
+Fusion: Stack [block],loro,Oceania,1.1521073579788208,0.4536352136515215,0.11760164052248001,Refitted on frozen splits
+Fusion: Stack [block],zone,Arid,1.2439459562301636,0.7544443520753379,0.08149371296167374,Refitted on frozen splits
+Fusion: Stack [block],zone,Cold,0.7627855539321899,0.6910297123530542,0.05956360697746277,Refitted on frozen splits
+Fusion: Stack [block],zone,Temperate,1.1539392471313477,0.6745500513848126,0.051618289202451706,Refitted on frozen splits
+Fusion: Stack [block],zone,Tropical,1.0730617046356201,0.714898209117168,0.044526588171720505,Refitted on frozen splits
+Fusion: Stack [mixed],block10,fold0,1.0568413734436035,0.6819138322988129,0.02377428114414215,Refitted on frozen splits
+Fusion: Stack [mixed],block10,fold1,0.9772593975067139,0.7631448214196095,0.03956688195466995,Refitted on frozen splits
+Fusion: Stack [mixed],block10,fold2,0.7831965684890747,0.7850850421079949,0.046009212732315063,Refitted on frozen splits
+Fusion: Stack [mixed],block10,fold3,0.9780133962631226,0.7930322431693124,0.049513399600982666,Refitted on frozen splits
+Fusion: Stack [mixed],block10,fold4,0.876170814037323,0.76031737667801,0.02324390783905983,Refitted on frozen splits
+Fusion: Stack [mixed],env,envC0,0.7340724468231201,0.764385198749564,0.038512956351041794,Refitted on frozen splits
+Fusion: Stack [mixed],env,envC1,0.9197319149971008,0.6860941183059465,0.04086979106068611,Refitted on frozen splits
+Fusion: Stack [mixed],env,envC2,1.0691050291061401,0.6394879695977421,0.03268354386091232,Refitted on frozen splits
+Fusion: Stack [mixed],env,envC3,1.264906883239746,0.7132872918395526,0.06241030618548393,Refitted on frozen splits
+Fusion: Stack [mixed],env,envC4,1.044152855873108,0.6732236745954724,0.05875205993652344,Refitted on frozen splits
+Fusion: Stack [mixed],loro,Africa,2.3677546977996826,0.6776861101861102,0.17278800904750824,Refitted on frozen splits
+Fusion: Stack [mixed],loro,Asia,1.8701506853103638,0.6970959544775521,0.1390175223350525,Refitted on frozen splits
+Fusion: Stack [mixed],loro,Europe,1.0031040906906128,0.6952094015942861,0.0776928961277008,Refitted on frozen splits
+Fusion: Stack [mixed],loro,Latin America,1.4685490131378174,0.5853576561544752,0.09866028279066086,Refitted on frozen splits
+Fusion: Stack [mixed],loro,N America,1.2239410877227783,0.6842214169638041,0.07667707651853561,Refitted on frozen splits
+Fusion: Stack [mixed],loro,Oceania,1.2146188020706177,0.4523209990986401,0.12920698523521423,Refitted on frozen splits
+Fusion: Stack [mixed],zone,Arid,1.489222526550293,0.7441190627183072,0.11343754082918167,Refitted on frozen splits
+Fusion: Stack [mixed],zone,Cold,0.755530834197998,0.6840665077896566,0.05749545246362686,Refitted on frozen splits
+Fusion: Stack [mixed],zone,Temperate,1.1998831033706665,0.6699055478445496,0.05349893495440483,Refitted on frozen splits
+Fusion: Stack [mixed],zone,Tropical,1.108213186264038,0.7238311472753689,0.05353274941444397,Refitted on frozen splits
+HF2,block10,fold0,1.021958030292285,0.7404945426992335,0.029481375262959512,Refitted on frozen splits
+HF2,block10,fold1,0.9649859547265591,0.7640253099377334,0.039967228346563105,Refitted on frozen splits
+HF2,block10,fold2,0.8093698031197755,0.7544385762273922,0.04907744394065041,Refitted on frozen splits
+HF2,block10,fold3,0.9110083867887115,0.797155502459372,0.03757979277976972,Refitted on frozen splits
+HF2,block10,fold4,0.8508498927886268,0.7751540761256536,0.020968667375053693,Refitted on frozen splits
+HF2,env,envC0,0.6967736615595183,0.7785045363326326,0.02342837630679675,Refitted on frozen splits
+HF2,env,envC1,0.8903982034274758,0.7021149353797916,0.031712958105854394,Refitted on frozen splits
+HF2,env,envC2,1.111760824908452,0.6627626799470355,0.06079240436851576,Refitted on frozen splits
+HF2,env,envC3,1.3950571216098755,0.6930049912384908,0.08710264288857178,Refitted on frozen splits
+HF2,env,envC4,1.016528723734656,0.6707484465784421,0.030039667065750984,Refitted on frozen splits
+HF2,loro,Africa,1.9583118137844846,0.6953280053280053,0.1413744112132398,Refitted on frozen splits
+HF2,loro,Asia,1.4454801898524565,0.7517758635131242,0.1358282084381679,Refitted on frozen splits
+HF2,loro,Europe,1.0821118714508169,0.7201987518225091,0.0938436868090329,Refitted on frozen splits
+HF2,loro,Latin America,1.426704506033859,0.6461111280447603,0.0932090127388148,Refitted on frozen splits
+HF2,loro,N America,1.31593841704945,0.7303153807834095,0.10368227042003023,Refitted on frozen splits
+HF2,loro,Oceania,1.1175707085093647,0.6687187674150261,0.11385506285846657,Refitted on frozen splits
+HF2,zone,Arid,1.4522273820346774,0.7217628418374651,0.11239251796070564,Refitted on frozen splits
+HF2,zone,Cold,0.7288629825458856,0.717279888734727,0.05130293127773836,Refitted on frozen splits
+HF2,zone,Temperate,1.0225487251739371,0.7160435302972284,0.04622754810035432,Refitted on frozen splits
+HF2,zone,Tropical,1.1794470857311032,0.6831263350080973,0.06341688157399142,Refitted on frozen splits
+HF2 [wider inner blocks],block10,fold0,1.0166774297988652,0.7385276372393387,0.02184040792365342,Refitted on frozen splits
+HF2 [wider inner blocks],block10,fold1,1.003219732468087,0.7651777329085223,0.04668789349897326,Refitted on frozen splits
+HF2 [wider inner blocks],block10,fold2,0.7915911641110747,0.7521176168757837,0.04125708106967511,Refitted on frozen splits
+HF2 [wider inner blocks],block10,fold3,0.906819190622633,0.7974004886176017,0.03728687937250273,Refitted on frozen splits
+HF2 [wider inner blocks],block10,fold4,0.8522153378566462,0.7753130391326861,0.018525414947870335,Refitted on frozen splits
+HF2 [wider inner blocks],env,envC0,0.690899269553279,0.7792266630974255,0.02594186975370158,Refitted on frozen splits
+HF2 [wider inner blocks],env,envC1,0.9002461187551111,0.7008811191804245,0.03784691350033938,Refitted on frozen splits
+HF2 [wider inner blocks],env,envC2,1.169351496042253,0.6462840367221536,0.06475932244042285,Refitted on frozen splits
+HF2 [wider inner blocks],env,envC3,1.4057003741872214,0.6940185784133912,0.08215291166477014,Refitted on frozen splits
+HF2 [wider inner blocks],env,envC4,1.0135475736062114,0.6635303925844119,0.022978709874101742,Refitted on frozen splits
+HF2 [wider inner blocks],loro,Africa,2.0150270687908454,0.7067179926554925,0.13800967933747413,Refitted on frozen splits
+HF2 [wider inner blocks],loro,Asia,1.4823684218247641,0.7531268705443694,0.1345326385168631,Refitted on frozen splits
+HF2 [wider inner blocks],loro,Europe,1.0725582928831832,0.7219569535346979,0.09161338683952552,Refitted on frozen splits
+HF2 [wider inner blocks],loro,Latin America,1.4190558614411555,0.6634663975408105,0.09144001754803206,Refitted on frozen splits
+HF2 [wider inner blocks],loro,N America,1.783087535822065,0.725861044884655,0.15076727911102533,Refitted on frozen splits
+HF2 [wider inner blocks],loro,Oceania,1.168447003408979,0.66454209710225,0.12091629340391263,Refitted on frozen splits
+HF2 [wider inner blocks],zone,Arid,1.5376198147519997,0.7145467170525661,0.11151890865579024,Refitted on frozen splits
+HF2 [wider inner blocks],zone,Cold,0.7368402909197702,0.7200435853149924,0.052760176960581454,Refitted on frozen splits
+HF2 [wider inner blocks],zone,Temperate,1.0703451776588047,0.7141905556440094,0.06024162958420772,Refitted on frozen splits
+HF2 [wider inner blocks],zone,Tropical,1.2238529412663968,0.6750750557339825,0.05719394613582279,Refitted on frozen splits
+HF2+pool4,block10,fold0,1.025366774340896,0.7438565246090582,0.030055233593815716,Refitted on frozen splits
+HF2+pool4,block10,fold1,0.9687305566965401,0.7680078105387464,0.040066400723679695,Refitted on frozen splits
+HF2+pool4,block10,fold2,0.8030585487335867,0.7620032979117831,0.04736703684106182,Refitted on frozen splits
+HF2+pool4,block10,fold3,0.8771959756360382,0.800053285757388,0.024830583537795284,Refitted on frozen splits
+HF2+pool4,block10,fold4,0.8408140829339927,0.7830804066128897,0.022483348103334615,Refitted on frozen splits
+HF2+pool4,env,envC0,0.6759908935598008,0.783099979926398,0.02631986475794602,Refitted on frozen splits
+HF2+pool4,env,envC1,0.8705335417026735,0.7003080033872631,0.026937883816588123,Refitted on frozen splits
+HF2+pool4,env,envC2,1.1058332010316807,0.6730357983953223,0.0572893724536275,Refitted on frozen splits
+HF2+pool4,env,envC3,1.3539558662421391,0.7016434356826353,0.08851259507322655,Refitted on frozen splits
+HF2+pool4,env,envC4,1.0251177481914444,0.678725909705658,0.03124220409927657,Refitted on frozen splits
+HF2+pool4,loro,Africa,1.838994630398167,0.6874638035575535,0.13026724179089344,Refitted on frozen splits
+HF2+pool4,loro,Asia,1.310979184593691,0.7408576479398646,0.11519100961531147,Refitted on frozen splits
+HF2+pool4,loro,Europe,1.0559688085052936,0.7204717352716163,0.09232741138790285,Refitted on frozen splits
+HF2+pool4,loro,Latin America,1.3841044723254647,0.6687938477183126,0.08738326170074341,Refitted on frozen splits
+HF2+pool4,loro,N America,1.246130190779638,0.7336378761645009,0.09261952527579947,Refitted on frozen splits
+HF2+pool4,loro,Oceania,1.1180780627522888,0.6827910929124297,0.10805353738650494,Refitted on frozen splits
+HF2+pool4,zone,Arid,1.3927593023452718,0.7156094095256749,0.10236909958621816,Refitted on frozen splits
+HF2+pool4,zone,Cold,0.7191654230780418,0.7006903423611938,0.046982172054688486,Refitted on frozen splits
+HF2+pool4,zone,Temperate,1.0242859675472105,0.7107927810854633,0.044843473820831654,Refitted on frozen splits
+HF2+pool4,zone,Tropical,1.155057514295027,0.7105282366004236,0.06679991911088484,Refitted on frozen splits
+HF2-cal,block10,fold0,1.0183232883928202,0.7384902278536624,0.02841377167299965,Refitted on frozen splits
+HF2-cal,block10,fold1,0.9805251533601083,0.7546283365406967,0.036473483900198445,Refitted on frozen splits
+HF2-cal,block10,fold2,0.8276577266156735,0.7454987238555506,0.05038633125108486,Refitted on frozen splits
+HF2-cal,block10,fold3,0.9421198380395982,0.7952202842376528,0.04975168419093217,Refitted on frozen splits
+HF2-cal,block10,fold4,0.8683964580653261,0.766123909483748,0.022585319128877335,Refitted on frozen splits
+HF2-cal,env,envC0,0.7267060216293632,0.757311198518331,0.03182971898251134,Refitted on frozen splits
+HF2-cal,env,envC1,0.8983960137468242,0.6970689398756361,0.032417110923226626,Refitted on frozen splits
+HF2-cal,env,envC2,1.0775234775739262,0.648849616414582,0.04771116899551354,Refitted on frozen splits
+HF2-cal,env,envC3,1.380906538997186,0.6956637086617998,0.09576963637734402,Refitted on frozen splits
+HF2-cal,env,envC4,1.0371084480289983,0.6812754682208793,0.04010005794733587,Refitted on frozen splits
+HF2-cal,loro,Africa,1.8144488722321788,0.7216404486716987,0.13393904107019647,Refitted on frozen splits
+HF2-cal,loro,Asia,1.3567809409498666,0.743106134959885,0.12288997776872092,Refitted on frozen splits
+HF2-cal,loro,Europe,1.17727737688912,0.7008341510016313,0.10835051754013819,Refitted on frozen splits
+HF2-cal,loro,Latin America,1.469732616247214,0.5970092075034876,0.10620005521292288,Refitted on frozen splits
+HF2-cal,loro,N America,1.1321382099623785,0.7358721235638592,0.06913871594644475,Refitted on frozen splits
+HF2-cal,loro,Oceania,1.0953289488032332,0.6611764661328872,0.10697331252259254,Refitted on frozen splits
+HF2-cal,zone,Arid,1.4155016385670054,0.7259163501573251,0.11022318583336932,Refitted on frozen splits
+HF2-cal,zone,Cold,0.7449914192012284,0.7197604295115686,0.05504872899036825,Refitted on frozen splits
+HF2-cal,zone,Temperate,1.1189040429668624,0.6976081388675095,0.06055170873817177,Refitted on frozen splits
+HF2-cal,zone,Tropical,1.147384239778794,0.6858258983172926,0.0486951706239565,Refitted on frozen splits
+HF2-cal [wider inner blocks],block10,fold0,1.0123191452191558,0.7420626629906234,0.02812544873977549,Refitted on frozen splits
+HF2-cal [wider inner blocks],block10,fold1,1.0102076543506833,0.7502517652498484,0.039322075054885865,Refitted on frozen splits
+HF2-cal [wider inner blocks],block10,fold2,0.814087356175602,0.7464551621516423,0.04418982239237724,Refitted on frozen splits
+HF2-cal [wider inner blocks],block10,fold3,0.9496700296303157,0.7946918248288708,0.04840870824589061,Refitted on frozen splits
+HF2-cal [wider inner blocks],block10,fold4,0.865210349959929,0.7642254274268969,0.019170632195189753,Refitted on frozen splits
+HF2-cal [wider inner blocks],env,envC0,0.7349984499792992,0.7529765749486536,0.031222263603244475,Refitted on frozen splits
+HF2-cal [wider inner blocks],env,envC1,0.894183141693622,0.6983295547229696,0.03261307779100768,Refitted on frozen splits
+HF2-cal [wider inner blocks],env,envC2,1.091032615685847,0.6462282587513972,0.04684834264944111,Refitted on frozen splits
+HF2-cal [wider inner blocks],env,envC3,1.403736310896111,0.6900548067818963,0.09605819323794496,Refitted on frozen splits
+HF2-cal [wider inner blocks],env,envC4,1.0268428722779004,0.6795695284417828,0.03722906296545522,Refitted on frozen splits
+HF2-cal [wider inner blocks],loro,Africa,1.9069583747137357,0.7207470885595886,0.13505174139209591,Refitted on frozen splits
+HF2-cal [wider inner blocks],loro,Asia,1.418250694650035,0.7415539053242024,0.12441341039579011,Refitted on frozen splits
+HF2-cal [wider inner blocks],loro,Europe,1.2159081163444818,0.7000406668686585,0.10851086340076865,Refitted on frozen splits
+HF2-cal [wider inner blocks],loro,Latin America,1.44798177991347,0.60437640040173,0.09762813128808104,Refitted on frozen splits
+HF2-cal [wider inner blocks],loro,N America,1.2163292674511015,0.7329021453076916,0.08927892268190832,Refitted on frozen splits
+HF2-cal [wider inner blocks],loro,Oceania,1.0639085384630196,0.6577703310383058,0.10129231004991467,Refitted on frozen splits
+HF2-cal [wider inner blocks],zone,Arid,1.4852925568063764,0.7203659608931803,0.10951026827327616,Refitted on frozen splits
+HF2-cal [wider inner blocks],zone,Cold,0.7358380574050408,0.7198636018092509,0.05198241942657153,Refitted on frozen splits
+HF2-cal [wider inner blocks],zone,Temperate,1.1676105966064356,0.6953401922850928,0.07289232232021053,Refitted on frozen splits
+HF2-cal [wider inner blocks],zone,Tropical,1.139531065119613,0.6845712152480599,0.04426077662496605,Refitted on frozen splits
+HF2-shrink,block10,fold0,1.0226802032765119,0.7394541901427361,0.02981558409582507,Refitted on frozen splits
+HF2-shrink,block10,fold1,0.9657406028182891,0.7633421380733837,0.03918739517824001,Refitted on frozen splits
+HF2-shrink,block10,fold2,0.8125086973944159,0.7512092606206989,0.04815170556672026,Refitted on frozen splits
+HF2-shrink,block10,fold3,0.9094254943946247,0.7974049575469131,0.03781146524909348,Refitted on frozen splits
+HF2-shrink,block10,fold4,0.8503836998765766,0.7752437585603125,0.021021896700672033,Refitted on frozen splits
+HF2-shrink,env,envC0,0.6968598074878458,0.7794336356673504,0.023687536248562284,Refitted on frozen splits
+HF2-shrink,env,envC1,0.8909207487173784,0.7018882005926196,0.03179858771355535,Refitted on frozen splits
+HF2-shrink,env,envC2,1.1029828315976664,0.6500305391308105,0.05413479856198911,Refitted on frozen splits
+HF2-shrink,env,envC3,1.3859320540150686,0.6930716215692003,0.09032117961621994,Refitted on frozen splits
+HF2-shrink,env,envC4,1.0161289368806095,0.6708904988845095,0.031310476857347,Refitted on frozen splits
+HF2-shrink,loro,Africa,1.957891932030886,0.7010514196451696,0.13933851954295692,Refitted on frozen splits
+HF2-shrink,loro,Asia,1.3843123670502313,0.7451684030014043,0.1275226416955394,Refitted on frozen splits
+HF2-shrink,loro,Europe,1.0816129824604135,0.7156323830281899,0.09301752620392718,Refitted on frozen splits
+HF2-shrink,loro,Latin America,1.4207608787586534,0.6285421870265021,0.0932175960749652,Refitted on frozen splits
+HF2-shrink,loro,N America,1.231422839684155,0.7314203542569601,0.08770791690603735,Refitted on frozen splits
+HF2-shrink,loro,Oceania,1.1177106863191,0.6700082006025534,0.11399507726941266,Refitted on frozen splits
+HF2-shrink,zone,Arid,1.448561944158623,0.7227913092980435,0.11147186292124917,Refitted on frozen splits
+HF2-shrink,zone,Cold,0.7298436277808438,0.7182664700082797,0.05138954631452915,Refitted on frozen splits
+HF2-shrink,zone,Temperate,1.025495859202896,0.7164847125324126,0.04738009555333693,Refitted on frozen splits
+HF2-shrink,zone,Tropical,1.1600908376510684,0.6880837948156319,0.05523541554219066,Refitted on frozen splits
+HF2-shrink+pool4,block10,fold0,1.0250649550360316,0.7426910361023609,0.02954520014056948,Refitted on frozen splits
+HF2-shrink+pool4,block10,fold1,0.9699377685349018,0.7647470403745763,0.03951041541258842,Refitted on frozen splits
+HF2-shrink+pool4,block10,fold2,0.8070628430064805,0.7593081168706041,0.047223531255435956,Refitted on frozen splits
+HF2-shrink+pool4,block10,fold3,0.8800294804962359,0.8001563987991894,0.025869014043760474,Refitted on frozen splits
+HF2-shrink+pool4,block10,fold4,0.8408029077068464,0.7827327271503729,0.02226130693622735,Refitted on frozen splits
+HF2-shrink+pool4,env,envC0,0.6760701434683628,0.7847928271381304,0.026352659203872593,Refitted on frozen splits
+HF2-shrink+pool4,env,envC1,0.870881398253835,0.7005158635931862,0.02736840886940596,Refitted on frozen splits
+HF2-shrink+pool4,env,envC2,1.0985622537971305,0.6618392010423787,0.05153745190281507,Refitted on frozen splits
+HF2-shrink+pool4,env,envC3,1.3662514258820073,0.6978072238291122,0.09608780308051666,Refitted on frozen splits
+HF2-shrink+pool4,env,envC4,1.0234117722133698,0.679000993910839,0.030526243990308788,Refitted on frozen splits
+HF2-shrink+pool4,loro,Africa,1.8476991304938575,0.6903310867373367,0.13412671982986005,Refitted on frozen splits
+HF2-shrink+pool4,loro,Asia,1.2993449378676856,0.7370012507342828,0.11494038372189251,Refitted on frozen splits
+HF2-shrink+pool4,loro,Europe,1.0570888418884061,0.7172579652937251,0.09184495844983626,Refitted on frozen splits
+HF2-shrink+pool4,loro,Latin America,1.3829074554349825,0.6447985884834493,0.08599204065817441,Refitted on frozen splits
+HF2-shrink+pool4,loro,N America,1.1880029819532323,0.7381289503070416,0.08027913876209192,Refitted on frozen splits
+HF2-shrink+pool4,loro,Oceania,1.1174003955047047,0.6781400686958633,0.10804052380646927,Refitted on frozen splits
+HF2-shrink+pool4,zone,Arid,1.4019651175855419,0.7161675700182235,0.10604571390387975,Refitted on frozen splits
+HF2-shrink+pool4,zone,Cold,0.7189577857085936,0.7030599083713408,0.04689147928548718,Refitted on frozen splits
+HF2-shrink+pool4,zone,Temperate,1.0272810645076913,0.7118635395643746,0.04562627472511844,Refitted on frozen splits
+HF2-shrink+pool4,zone,Tropical,1.1431049098383748,0.7048922405937246,0.05921750829004675,Refitted on frozen splits
+HF2-shrink2,block10,fold0,1.020278341737368,0.7403099951047359,0.02929807416332767,Refitted on frozen splits
+HF2-shrink2,block10,fold1,0.9656122016976452,0.7625609088317586,0.039084561582743614,Refitted on frozen splits
+HF2-shrink2,block10,fold2,0.8104149806449202,0.7515850037212068,0.04899500415096329,Refitted on frozen splits
+HF2-shrink2,block10,fold3,0.9055012219004563,0.7981669367787096,0.03797242214520536,Refitted on frozen splits
+HF2-shrink2,block10,fold4,0.8515290284446656,0.7753460846573056,0.021847810126229904,Refitted on frozen splits
+HF2-shrink2,env,envC0,0.6968598074878458,0.7794336356673504,0.023687536248562284,Refitted on frozen splits
+HF2-shrink2,env,envC1,0.8910513461707386,0.7020056988613425,0.032406514698601244,Refitted on frozen splits
+HF2-shrink2,env,envC2,1.0954448898888896,0.6427288331924326,0.051717933193397826,Refitted on frozen splits
+HF2-shrink2,env,envC3,1.3871400602714792,0.686574631537763,0.09576669364150459,Refitted on frozen splits
+HF2-shrink2,env,envC4,1.0157563169846457,0.6717589879122405,0.030157826313646052,Refitted on frozen splits
+HF2-shrink2,loro,Africa,1.957891932030886,0.7010514196451696,0.13933851954295692,Refitted on frozen splits
+HF2-shrink2,loro,Asia,1.360338312992799,0.7458350156514704,0.12220594146357884,Refitted on frozen splits
+HF2-shrink2,loro,Europe,1.082161581077014,0.7189102848123587,0.09357706839050084,Refitted on frozen splits
+HF2-shrink2,loro,Latin America,1.4204791992126284,0.6364185984770563,0.09257763550196144,Refitted on frozen splits
+HF2-shrink2,loro,N America,1.1560103832087472,0.7316953941944183,0.07129420876996223,Refitted on frozen splits
+HF2-shrink2,loro,Oceania,1.1177106863191,0.6700082006025534,0.11399507726941266,Refitted on frozen splits
+HF2-shrink2,zone,Arid,1.4329909934176042,0.7283362600659196,0.11112867986461628,Refitted on frozen splits
+HF2-shrink2,zone,Cold,0.7298449897534094,0.7182683656710035,0.0513899553528219,Refitted on frozen splits
+HF2-shrink2,zone,Temperate,1.0420916653758954,0.7265204913768118,0.055692387109071366,Refitted on frozen splits
+HF2-shrink2,zone,Tropical,1.1475755872389695,0.6905571850371092,0.053739919719923986,Refitted on frozen splits
+HF2-shrink2+pool4,block10,fold0,1.0252998598820302,0.742276627231891,0.0294574325211431,Refitted on frozen splits
+HF2-shrink2+pool4,block10,fold1,0.9712676577502329,0.763300244437881,0.03937685168551472,Refitted on frozen splits
+HF2-shrink2+pool4,block10,fold2,0.8070641692960205,0.7592791953008239,0.0472272694978507,Refitted on frozen splits
+HF2-shrink2+pool4,block10,fold3,0.8855162538751937,0.8017750742794196,0.028293275893618103,Refitted on frozen splits
+HF2-shrink2+pool4,block10,fold4,0.8410478151927696,0.7826609043658659,0.022402889618920396,Refitted on frozen splits
+HF2-shrink2+pool4,env,envC0,0.6760781337063059,0.7848307011195839,0.026358093371316463,Refitted on frozen splits
+HF2-shrink2+pool4,env,envC1,0.8708625583378748,0.7005718382823879,0.02736585779180938,Refitted on frozen splits
+HF2-shrink2+pool4,env,envC2,1.097406248473125,0.6577270464948497,0.050849032987785536,Refitted on frozen splits
+HF2-shrink2+pool4,env,envC3,1.367801239358707,0.6976591776916385,0.09651163945037579,Refitted on frozen splits
+HF2-shrink2+pool4,env,envC4,1.0232723287064471,0.6789138976267612,0.03053245352125446,Refitted on frozen splits
+HF2-shrink2+pool4,loro,Africa,1.8560422523279438,0.7048273312335812,0.13425529661031418,Refitted on frozen splits
+HF2-shrink2+pool4,loro,Asia,1.3426563129568068,0.7304032992893624,0.12364112827503704,Refitted on frozen splits
+HF2-shrink2+pool4,loro,Europe,1.055961001465721,0.7172694266887335,0.0917657133078654,Refitted on frozen splits
+HF2-shrink2+pool4,loro,Latin America,1.3964835710558974,0.6354601983092865,0.08933072443624376,Refitted on frozen splits
+HF2-shrink2+pool4,loro,N America,1.1825818547562343,0.7395221259070408,0.07929131019077806,Refitted on frozen splits
+HF2-shrink2+pool4,loro,Oceania,1.1080757576393014,0.6937036459026513,0.10995742031038142,Refitted on frozen splits
+HF2-shrink2+pool4,zone,Arid,1.3998074786430847,0.719267090163456,0.1059762737507513,Refitted on frozen splits
+HF2-shrink2+pool4,zone,Cold,0.718912599791991,0.7031015378688131,0.046885055000916755,Refitted on frozen splits
+HF2-shrink2+pool4,zone,Temperate,1.0291117275659805,0.7144066959574555,0.047012832273415454,Refitted on frozen splits
+HF2-shrink2+pool4,zone,Tropical,1.144209457337185,0.7013344926458207,0.06057915332124222,Refitted on frozen splits
+HF2-shrinkP,block10,fold0,1.0194946992032385,0.7412125452597291,0.02880826044549089,Refitted on frozen splits
+HF2-shrinkP,block10,fold1,0.9648541105154259,0.7631621663210506,0.03979123015489093,Refitted on frozen splits
+HF2-shrinkP,block10,fold2,0.807287540317268,0.7548064794587072,0.05023808402470066,Refitted on frozen splits
+HF2-shrinkP,block10,fold3,0.9056340108711325,0.7978935964157073,0.03785506061920698,Refitted on frozen splits
+HF2-shrinkP,block10,fold4,0.8516739995712519,0.7754061513650352,0.022157035318514248,Refitted on frozen splits
+HF2-shrinkP,env,envC0,0.6967736615595183,0.7785045363326326,0.02342837630679675,Refitted on frozen splits
+HF2-shrinkP,env,envC1,0.8905308115757616,0.7022230499718467,0.032321366888294754,Refitted on frozen splits
+HF2-shrinkP,env,envC2,1.096771828414703,0.645454646626006,0.05446636112275836,Refitted on frozen splits
+HF2-shrinkP,env,envC3,1.3862016728860498,0.688356598831917,0.0938172736609147,Refitted on frozen splits
+HF2-shrinkP,env,envC4,1.0159044629164455,0.6717533766604824,0.028776905971007936,Refitted on frozen splits
+HF2-shrinkP,loro,Africa,1.9583118137844846,0.6953280053280053,0.1413744112132398,Refitted on frozen splits
+HF2-shrinkP,loro,Asia,1.4044250504650857,0.7476814353930211,0.12745209421704862,Refitted on frozen splits
+HF2-shrinkP,loro,Europe,1.0828702401228283,0.7244778244597949,0.09460376688224291,Refitted on frozen splits
+HF2-shrinkP,loro,Latin America,1.421282019408726,0.6479963966350736,0.09188287160031314,Refitted on frozen splits
+HF2-shrinkP,loro,N America,1.1576055412627801,0.72819981882889,0.06891264533902379,Refitted on frozen splits
+HF2-shrinkP,loro,Oceania,1.1175707085093647,0.6687187674150261,0.11385506285846657,Refitted on frozen splits
+HF2-shrinkP,zone,Arid,1.4304708443505996,0.7272491244843259,0.11156338610370997,Refitted on frozen splits
+HF2-shrinkP,zone,Cold,0.7288643445184513,0.7172817843974508,0.05130334031603112,Refitted on frozen splits
+HF2-shrinkP,zone,Temperate,1.0390105078500411,0.726164381993345,0.05569372575667327,Refitted on frozen splits
+HF2-shrinkP,zone,Tropical,1.1543016788223046,0.6843688740466547,0.05826293852189317,Refitted on frozen splits
+HF2-shrinkP+pool4,block10,fold0,1.0256556732289368,0.7433903869393211,0.029925600312011632,Refitted on frozen splits
+HF2-shrinkP+pool4,block10,fold1,0.9702750453935693,0.7660866182580852,0.039941347330453666,Refitted on frozen splits
+HF2-shrinkP+pool4,block10,fold2,0.803212771252735,0.7618764234343911,0.04736331419352401,Refitted on frozen splits
+HF2-shrinkP+pool4,block10,fold3,0.8848700370231468,0.8011352832566359,0.027651633795664952,Refitted on frozen splits
+HF2-shrinkP+pool4,block10,fold4,0.8410264264251021,0.7829746089737329,0.02254870743197373,Refitted on frozen splits
+HF2-shrinkP+pool4,env,envC0,0.6759903353615878,0.7831111242473082,0.02632410642834831,Refitted on frozen splits
+HF2-shrinkP+pool4,env,envC1,0.8704723427765075,0.7005728658976672,0.0269989243166836,Refitted on frozen splits
+HF2-shrinkP+pool4,env,envC2,1.1032462816003323,0.6621913255222104,0.054917878837862734,Refitted on frozen splits
+HF2-shrinkP+pool4,env,envC3,1.3632177272329524,0.6994275507104024,0.09138560548600892,Refitted on frozen splits
+HF2-shrinkP+pool4,env,envC4,1.024900041298252,0.678880037667104,0.03118995398857835,Refitted on frozen splits
+HF2-shrinkP+pool4,loro,Africa,1.8551832614099857,0.7019671416546416,0.13004477124787414,Refitted on frozen splits
+HF2-shrinkP+pool4,loro,Asia,1.3654462151551423,0.7296220181206607,0.12638617895239987,Refitted on frozen splits
+HF2-shrinkP+pool4,loro,Europe,1.0549434988394626,0.72112399269307,0.09237092252694104,Refitted on frozen splits
+HF2-shrinkP+pool4,loro,Latin America,1.4004305843528557,0.6496020554160397,0.09108619743494943,Refitted on frozen splits
+HF2-shrinkP+pool4,loro,N America,1.2073810513291676,0.7349382456023039,0.08442561884627033,Refitted on frozen splits
+HF2-shrinkP+pool4,loro,Oceania,1.1078006444810329,0.6926018800974281,0.10980566034889067,Refitted on frozen splits
+HF2-shrinkP+pool4,zone,Arid,1.3897891082210645,0.7191112187334937,0.10285173709722696,Refitted on frozen splits
+HF2-shrinkP+pool4,zone,Cold,0.7187301187512352,0.7018165688440762,0.04699435800416393,Refitted on frozen splits
+HF2-shrinkP+pool4,zone,Temperate,1.025905169748485,0.7132025330292322,0.04627713741033503,Refitted on frozen splits
+HF2-shrinkP+pool4,zone,Tropical,1.1533355027503829,0.7013221353464998,0.0651891041530231,Refitted on frozen splits
+HiCo,block10,fold0,1.0665202634272637,0.7142211214003744,0.02780186192242146,Refitted on frozen splits
+HiCo,block10,fold1,0.9800031088116937,0.7571724381324622,0.03465534160617247,Refitted on frozen splits
+HiCo,block10,fold2,0.9971599202490014,0.7027400509196026,0.0599242378680734,Refitted on frozen splits
+HiCo,block10,fold3,0.9234732596286092,0.7831992261745422,0.02318903525530252,Refitted on frozen splits
+HiCo,block10,fold4,0.8917169759588349,0.7468005659566395,0.018883064358239356,Refitted on frozen splits
+HiCo,env,envC0,0.8104555371553861,0.7098195586777165,0.0311472816593496,Refitted on frozen splits
+HiCo,env,envC1,1.0533432835777317,0.6600302127827912,0.05848861286875891,Refitted on frozen splits
+HiCo,env,envC2,1.1292414928733803,0.6377359932524016,0.05118221101804134,Refitted on frozen splits
+HiCo,env,envC3,1.3294467791679883,0.7226146887702942,0.09078155944970422,Refitted on frozen splits
+HiCo,env,envC4,1.0405069330969943,0.6754080620945031,0.03860761988497422,Refitted on frozen splits
+HiCo,loro,Africa,1.873013404680738,0.6679965115902615,0.13839199955447506,Refitted on frozen splits
+HiCo,loro,Asia,1.1978577863804296,0.6960972797169084,0.08885151649290685,Refitted on frozen splits
+HiCo,loro,Europe,1.2572948731966247,0.6401286535439307,0.09239529876782435,Refitted on frozen splits
+HiCo,loro,Latin America,1.7228851947425232,0.5853987449230229,0.094279349339048,Refitted on frozen splits
+HiCo,loro,N America,1.2801536560194526,0.6960598297801718,0.08374635535950736,Refitted on frozen splits
+HiCo,loro,Oceania,1.2936417453627673,0.6411959544767294,0.126350325146141,Refitted on frozen splits
+HiCo,zone,Arid,1.3586336810688135,0.7118419661603967,0.10450079815683719,Refitted on frozen splits
+HiCo,zone,Cold,1.2055851690460124,0.6048111699441393,0.12357379965634652,Refitted on frozen splits
+HiCo,zone,Temperate,1.4577779899666252,0.6411491690380976,0.07491442432188468,Refitted on frozen splits
+HiCo,zone,Tropical,1.2480323653067456,0.6321820236427198,0.05094336718929246,Refitted on frozen splits
+HiCo-RF,block10,fold0,1.033136282048583,0.7356712074447361,0.02865813338988359,Refitted on frozen splits
+HiCo-RF,block10,fold1,0.9739522864945418,0.760536370151854,0.03637183254562186,Refitted on frozen splits
+HiCo-RF,block10,fold2,0.7989353666570481,0.7735565560828905,0.03600228364120497,Refitted on frozen splits
+HiCo-RF,block10,fold3,0.9016539888834719,0.7981706225564567,0.023939077258673596,Refitted on frozen splits
+HiCo-RF,block10,fold4,0.8447008928238304,0.7731541420632704,0.01074162396040063,Refitted on frozen splits
+HiCo-RF,env,envC0,0.9008621173849968,0.7054249698741444,0.044166720674011624,Refitted on frozen splits
+HiCo-RF,env,envC1,1.015950849442839,0.6905152248216657,0.054224971213595485,Refitted on frozen splits
+HiCo-RF,env,envC2,1.1974379155286032,0.6358440586964724,0.058994491062390325,Refitted on frozen splits
+HiCo-RF,env,envC3,1.266038651517376,0.7121948609740281,0.08316662752436296,Refitted on frozen splits
+HiCo-RF,env,envC4,1.0496950491867472,0.6694517520718113,0.041706704133216865,Refitted on frozen splits
+HiCo-RF,loro,Africa,1.7822332368191456,0.6893895572020572,0.14015035591325112,Refitted on frozen splits
+HiCo-RF,loro,Asia,1.1497657238904508,0.739548598995521,0.08466178171317171,Refitted on frozen splits
+HiCo-RF,loro,Europe,1.141964367100336,0.6157747990952437,0.08536176324058642,Refitted on frozen splits
+HiCo-RF,loro,Latin America,1.6256511212473137,0.5257301760541536,0.10261357892298617,Refitted on frozen splits
+HiCo-RF,loro,N America,1.2267874884909673,0.7119691016346179,0.08069215593491179,Refitted on frozen splits
+HiCo-RF,loro,Oceania,1.4405763545118737,0.6835606311573883,0.15145523519964307,Refitted on frozen splits
+HiCo-RF,zone,Arid,1.4347014166663017,0.6748504115581162,0.10963671417964317,Refitted on frozen splits
+HiCo-RF,zone,Cold,1.132033720048386,0.644211156356842,0.11253766729221526,Refitted on frozen splits
+HiCo-RF,zone,Temperate,1.2917444651516077,0.6599183311774295,0.06506107419981108,Refitted on frozen splits
+HiCo-RF,zone,Tropical,1.2297676036702703,0.6326053049943882,0.058055816652850714,Refitted on frozen splits
+Invariance: Drivers (Clim+Land),block10,fold0,1.1785728112854694,0.6872693650777154,0.05851732871837808,Refitted on frozen splits
+Invariance: Drivers (Clim+Land),block10,fold1,1.1781887293184594,0.6952090857063417,0.06893781169355429,Refitted on frozen splits
+Invariance: Drivers (Clim+Land),block10,fold2,0.930680093996568,0.7384215780799426,0.038604466321008626,Refitted on frozen splits
+Invariance: Drivers (Clim+Land),block10,fold3,1.1513775807713438,0.7197215055129169,0.058951885012785414,Refitted on frozen splits
+Invariance: Drivers (Clim+Land),block10,fold4,0.8786469870903654,0.7561522617674518,0.012638070416193239,Refitted on frozen splits
+Invariance: Drivers (Clim+Land),env,envC0,0.9459641426156986,0.681151789585319,0.04829431018068757,Refitted on frozen splits
+Invariance: Drivers (Clim+Land),env,envC1,1.0853754981834995,0.639857047851125,0.06491327194036375,Refitted on frozen splits
+Invariance: Drivers (Clim+Land),env,envC2,1.5076435539802262,0.6289960120727476,0.06640109752263061,Refitted on frozen splits
+Invariance: Drivers (Clim+Land),env,envC3,1.3609497651261622,0.7025321803296187,0.06776294696798293,Refitted on frozen splits
+Invariance: Drivers (Clim+Land),env,envC4,1.122745208342206,0.6310403721730442,0.05132269848574101,Refitted on frozen splits
+Invariance: Drivers (Clim+Land),loro,Africa,2.14067139476927,0.6848331298331298,0.15698136238267013,Refitted on frozen splits
+Invariance: Drivers (Clim+Land),loro,Asia,1.4992683413116754,0.7202025744551611,0.11667890607535955,Refitted on frozen splits
+Invariance: Drivers (Clim+Land),loro,Europe,2.046788585625816,0.7021723132443439,0.10022945250043164,Refitted on frozen splits
+Invariance: Drivers (Clim+Land),loro,Latin America,1.4684718887962889,0.6100056572069059,0.09671683479711049,Refitted on frozen splits
+Invariance: Drivers (Clim+Land),loro,N America,1.3379614559615696,0.6595438167238221,0.08824319273394847,Refitted on frozen splits
+Invariance: Drivers (Clim+Land),loro,Oceania,1.2110130093126983,0.6051180256047093,0.12798269116670646,Refitted on frozen splits
+Invariance: Drivers (Clim+Land),zone,Arid,1.6885093942934652,0.6350661693320384,0.12083490976488342,Refitted on frozen splits
+Invariance: Drivers (Clim+Land),zone,Cold,0.9566168280448987,0.6722189186690578,0.0803893822479123,Refitted on frozen splits
+Invariance: Drivers (Clim+Land),zone,Temperate,1.3183435597002813,0.6160487927116682,0.06339917800608386,Refitted on frozen splits
+Invariance: Drivers (Clim+Land),zone,Tropical,1.566077339948218,0.5541507983867189,0.11459224007602449,Refitted on frozen splits
+Invariance: Drivers+Human,block10,fold0,1.1383738299439183,0.689247098945359,0.05497230257104491,Refitted on frozen splits
+Invariance: Drivers+Human,block10,fold1,1.1371563604136437,0.7108209910574798,0.060985658372981054,Refitted on frozen splits
+Invariance: Drivers+Human,block10,fold2,0.9313526170937994,0.7389694120013345,0.045676597339333595,Refitted on frozen splits
+Invariance: Drivers+Human,block10,fold3,1.1344358306005948,0.744192058792367,0.055352196129090876,Refitted on frozen splits
+Invariance: Drivers+Human,block10,fold4,0.8809127684059941,0.7650083892508363,0.0169629578157433,Refitted on frozen splits
+Invariance: Drivers+Human,env,envC0,0.9238322598030999,0.6873781938672636,0.04425311683175123,Refitted on frozen splits
+Invariance: Drivers+Human,env,envC1,1.1148761275803176,0.6370522288543355,0.06435467186484886,Refitted on frozen splits
+Invariance: Drivers+Human,env,envC2,1.1459148939500587,0.6462308239066329,0.05339757626431642,Refitted on frozen splits
+Invariance: Drivers+Human,env,envC3,1.3988326802233337,0.6995674718301451,0.08070022523909236,Refitted on frozen splits
+Invariance: Drivers+Human,env,envC4,1.065061834673533,0.6509228144162059,0.03882408703494602,Refitted on frozen splits
+Invariance: Drivers+Human,loro,Africa,2.863789332757866,0.6577938843563844,0.1780721581748047,Refitted on frozen splits
+Invariance: Drivers+Human,loro,Asia,1.4130510643852847,0.7334241436755766,0.10991190691376349,Refitted on frozen splits
+Invariance: Drivers+Human,loro,Europe,1.9118566510214803,0.6989214888489036,0.09760421142289814,Refitted on frozen splits
+Invariance: Drivers+Human,loro,Latin America,1.4196179517077447,0.6126131123899294,0.09273221552610843,Refitted on frozen splits
+Invariance: Drivers+Human,loro,N America,1.4312398007515987,0.6772913831906046,0.108477480063267,Refitted on frozen splits
+Invariance: Drivers+Human,loro,Oceania,1.172047138353509,0.5534321765123367,0.1207013065846374,Refitted on frozen splits
+Invariance: Drivers+Human,zone,Arid,1.4401963082213733,0.677645342965166,0.10156084310026055,Refitted on frozen splits
+Invariance: Drivers+Human,zone,Cold,0.992831202271155,0.6234182548385877,0.08994045510220519,Refitted on frozen splits
+Invariance: Drivers+Human,zone,Temperate,1.2638491951980617,0.6441093553723413,0.06073341691050778,Refitted on frozen splits
+Invariance: Drivers+Human,zone,Tropical,1.433104111007202,0.6246863451758337,0.0983329225030857,Refitted on frozen splits
+Invariance: Drivers+Human+AE_perp,block10,fold0,1.0447948107896572,0.7164445575535444,0.028200371779749878,Refitted on frozen splits
+Invariance: Drivers+Human+AE_perp,block10,fold1,1.0838199169283778,0.7228912856003622,0.03802045722323119,Refitted on frozen splits
+Invariance: Drivers+Human+AE_perp,block10,fold2,0.8010149176056853,0.7446709410383898,0.039289058495472054,Refitted on frozen splits
+Invariance: Drivers+Human+AE_perp,block10,fold3,1.0233275001469229,0.7320004983211379,0.03288174686792453,Refitted on frozen splits
+Invariance: Drivers+Human+AE_perp,block10,fold4,0.9019047166988076,0.7233042321284384,0.025649133741053307,Refitted on frozen splits
+Invariance: Drivers+Human+AE_perp,env,envC0,0.7763965582018588,0.6813256456612585,0.03529539814650373,Refitted on frozen splits
+Invariance: Drivers+Human+AE_perp,env,envC1,0.9933300045113622,0.6610264354083727,0.05169521007253779,Refitted on frozen splits
+Invariance: Drivers+Human+AE_perp,env,envC2,1.2087672294384355,0.6483853986204628,0.05685141409322201,Refitted on frozen splits
+Invariance: Drivers+Human+AE_perp,env,envC3,1.2646058039839745,0.6938167363212802,0.06544702185441192,Refitted on frozen splits
+Invariance: Drivers+Human+AE_perp,env,envC4,1.0518049480372003,0.6440483639694565,0.03327278881054887,Refitted on frozen splits
+Invariance: Drivers+Human+AE_perp,loro,Africa,2.1005597259432403,0.7271293232230732,0.12194055080971472,Refitted on frozen splits
+Invariance: Drivers+Human+AE_perp,loro,Asia,1.5108857382071077,0.7134878661622011,0.12751145231016034,Refitted on frozen splits
+Invariance: Drivers+Human+AE_perp,loro,Europe,1.024702050428176,0.6312365343053508,0.07723582509021441,Refitted on frozen splits
+Invariance: Drivers+Human+AE_perp,loro,Latin America,2.0039772687724846,0.5401364023423021,0.10230463064733727,Refitted on frozen splits
+Invariance: Drivers+Human+AE_perp,loro,N America,1.3056111311066294,0.6828944457300319,0.09052737292574935,Refitted on frozen splits
+Invariance: Drivers+Human+AE_perp,loro,Oceania,1.0846152686714627,0.6526535657441787,0.08925806876863769,Refitted on frozen splits
+Invariance: Drivers+Human+AE_perp,zone,Arid,1.2484175630155283,0.6803472422200425,0.06976322892171455,Refitted on frozen splits
+Invariance: Drivers+Human+AE_perp,zone,Cold,0.8719968003541995,0.6679438623173254,0.07271795969707665,Refitted on frozen splits
+Invariance: Drivers+Human+AE_perp,zone,Temperate,1.1760642178817426,0.6791480320262429,0.0524035011611427,Refitted on frozen splits
+Invariance: Drivers+Human+AE_perp,zone,Tropical,1.2451391671406242,0.6324192150891544,0.06684541820266286,Refitted on frozen splits
+Invariance: ERM,block10,fold0,1.0618584857699966,0.7075357478033463,0.029799135928786177,Refitted on frozen splits
+Invariance: ERM,block10,fold1,1.0785414148033357,0.7366330978799323,0.038383344505184804,Refitted on frozen splits
+Invariance: ERM,block10,fold2,0.8027611564603748,0.7706117837940328,0.038109723333708136,Refitted on frozen splits
+Invariance: ERM,block10,fold3,0.9583837828712914,0.7847322780194959,0.03791152985911653,Refitted on frozen splits
+Invariance: ERM,block10,fold4,0.8687482032518917,0.7418855534541975,0.018868472033168604,Refitted on frozen splits
+Invariance: ERM,env,envC0,0.7820942891106508,0.7471028239278135,0.04620097251324675,Refitted on frozen splits
+Invariance: ERM,env,envC1,0.9515774005999538,0.6800362832662922,0.036757286997874894,Refitted on frozen splits
+Invariance: ERM,env,envC2,1.1752017656505476,0.6318964046272277,0.04562075906070705,Refitted on frozen splits
+Invariance: ERM,env,envC3,1.1778377198025263,0.7204747467926584,0.04678461363507948,Refitted on frozen splits
+Invariance: ERM,env,envC4,1.0482549982129388,0.6604490251372607,0.04193179371458591,Refitted on frozen splits
+Invariance: ERM,loro,Africa,2.053367226763297,0.7564410358160358,0.13877305479310875,Refitted on frozen splits
+Invariance: ERM,loro,Asia,1.2243344782384036,0.7335271117644677,0.09455316783228772,Refitted on frozen splits
+Invariance: ERM,loro,Europe,0.9163563511041098,0.7066404307602486,0.06442215317211766,Refitted on frozen splits
+Invariance: ERM,loro,Latin America,1.7876952404831175,0.5479716855637539,0.08654245632459788,Refitted on frozen splits
+Invariance: ERM,loro,N America,1.4461342078802708,0.7193167611770904,0.11190131927683412,Refitted on frozen splits
+Invariance: ERM,loro,Oceania,1.2573672583550555,0.6603638809035774,0.11710305069418708,Refitted on frozen splits
+Invariance: ERM,zone,Arid,1.3859993434172302,0.6902916130874821,0.08736347321603075,Refitted on frozen splits
+Invariance: ERM,zone,Cold,0.8336622490821864,0.6939610496808104,0.05891250980903809,Refitted on frozen splits
+Invariance: ERM,zone,Temperate,1.2667532693322072,0.6772859763571535,0.05649711517288935,Refitted on frozen splits
+Invariance: ERM,zone,Tropical,1.2318973448261734,0.6701171482935178,0.06252209601062031,Refitted on frozen splits
+Invariance: GroupDRO,block10,fold0,1.0857998391986172,0.711415134083459,0.03799175483241817,Refitted on frozen splits
+Invariance: GroupDRO,block10,fold1,1.0939530508349473,0.7363229076687415,0.042495155098741015,Refitted on frozen splits
+Invariance: GroupDRO,block10,fold2,0.8600961421327623,0.7774461670374809,0.04584602229603566,Refitted on frozen splits
+Invariance: GroupDRO,block10,fold3,0.9151470375274304,0.7936091930652395,0.03355970110509162,Refitted on frozen splits
+Invariance: GroupDRO,block10,fold4,0.8826518395478428,0.7380575546491385,0.01971878034150086,Refitted on frozen splits
+Invariance: GroupDRO,env,envC0,0.8505988807534924,0.733917585336279,0.054561218861383896,Refitted on frozen splits
+Invariance: GroupDRO,env,envC1,1.2310500191670175,0.6408487243199873,0.0969596922233823,Refitted on frozen splits
+Invariance: GroupDRO,env,envC2,1.2733219050633822,0.650361501846888,0.05447299122999799,Refitted on frozen splits
+Invariance: GroupDRO,env,envC3,1.1950976944858243,0.711525860812841,0.05437449585110499,Refitted on frozen splits
+Invariance: GroupDRO,env,envC4,1.074139408162754,0.6616013033732961,0.051807083529675925,Refitted on frozen splits
+Invariance: GroupDRO,loro,Africa,1.4615493924917957,0.7196532807470307,0.12781223946794604,Refitted on frozen splits
+Invariance: GroupDRO,loro,Asia,1.3531344146121533,0.7255178799339005,0.12442109279150529,Refitted on frozen splits
+Invariance: GroupDRO,loro,Europe,0.874724772127845,0.7121169560308424,0.04054350760897502,Refitted on frozen splits
+Invariance: GroupDRO,loro,Latin America,1.6737128213166892,0.5379698486569051,0.08840242325553763,Refitted on frozen splits
+Invariance: GroupDRO,loro,N America,1.3056678068575345,0.7173492215110361,0.09116114843440269,Refitted on frozen splits
+Invariance: GroupDRO,loro,Oceania,1.197057165425373,0.6329269777540718,0.11118903326033613,Refitted on frozen splits
+Invariance: GroupDRO,zone,Arid,1.4440887389318517,0.6636653219020352,0.10234854208655161,Refitted on frozen splits
+Invariance: GroupDRO,zone,Cold,0.8807575463409197,0.7029985089480751,0.06726094017051479,Refitted on frozen splits
+Invariance: GroupDRO,zone,Temperate,1.3141579615136958,0.659990842076128,0.06145655302715492,Refitted on frozen splits
+Invariance: GroupDRO,zone,Tropical,1.205477948646466,0.6674217688736606,0.058275835906834196,Refitted on frozen splits
+Invariance: V-REx l=1,block10,fold0,1.0764390311146903,0.7099601816681086,0.03524709489010065,Refitted on frozen splits
+Invariance: V-REx l=1,block10,fold1,1.1138338888181527,0.7305450548015036,0.04714365623105916,Refitted on frozen splits
+Invariance: V-REx l=1,block10,fold2,0.8429348075549749,0.7739554083250929,0.046147584634487974,Refitted on frozen splits
+Invariance: V-REx l=1,block10,fold3,0.9171180847497136,0.793744809968858,0.03333548618219956,Refitted on frozen splits
+Invariance: V-REx l=1,block10,fold4,0.8680923043588922,0.743942434335106,0.01783710092992935,Refitted on frozen splits
+Invariance: V-REx l=1,env,envC0,0.8034426878149996,0.7414253408573077,0.05310804678512687,Refitted on frozen splits
+Invariance: V-REx l=1,env,envC1,1.276184464834136,0.6131662296624442,0.10143657709452923,Refitted on frozen splits
+Invariance: V-REx l=1,env,envC2,1.3207790399128179,0.6517413662534797,0.059726357265550346,Refitted on frozen splits
+Invariance: V-REx l=1,env,envC3,1.1756454024098548,0.7124996685556464,0.045348448611139944,Refitted on frozen splits
+Invariance: V-REx l=1,env,envC4,1.0421355253791593,0.6624971922666592,0.04130887157776996,Refitted on frozen splits
+Invariance: V-REx l=1,loro,Africa,1.5216769129354641,0.6995067316942318,0.13790327711059192,Refitted on frozen splits
+Invariance: V-REx l=1,loro,Asia,1.2848321235073594,0.7282454036653117,0.11280734764918457,Refitted on frozen splits
+Invariance: V-REx l=1,loro,Europe,0.9015209794951853,0.7163096310795742,0.06017785256229709,Refitted on frozen splits
+Invariance: V-REx l=1,loro,Latin America,1.7935947947373114,0.5597796148903333,0.090927415379965,Refitted on frozen splits
+Invariance: V-REx l=1,loro,N America,1.4195409153348673,0.716492085752104,0.10827458786685674,Refitted on frozen splits
+Invariance: V-REx l=1,loro,Oceania,1.2073529999881003,0.6842273169629474,0.11059498998328676,Refitted on frozen splits
+Invariance: V-REx l=1,zone,Arid,1.3652113241654082,0.6721693111619913,0.08973871341601555,Refitted on frozen splits
+Invariance: V-REx l=1,zone,Cold,0.8266997963811324,0.7006058739095513,0.057531962325183414,Refitted on frozen splits
+Invariance: V-REx l=1,zone,Temperate,1.2767734117392469,0.6694716744265304,0.06015114592882569,Refitted on frozen splits
+Invariance: V-REx l=1,zone,Tropical,1.2084140023670786,0.6965967153211865,0.06584981285355163,Refitted on frozen splits
+Invariance: V-REx l=10,block10,fold0,1.0439186189933176,0.7266627163414063,0.03095529261877141,Refitted on frozen splits
+Invariance: V-REx l=10,block10,fold1,1.1508008043534752,0.7102287123199307,0.05459244853790964,Refitted on frozen splits
+Invariance: V-REx l=10,block10,fold2,0.9492878369286991,0.767314330234442,0.05930782416347046,Refitted on frozen splits
+Invariance: V-REx l=10,block10,fold3,0.9186680480310403,0.7837630158809339,0.026225204341180103,Refitted on frozen splits
+Invariance: V-REx l=10,block10,fold4,0.8773607077134749,0.7487939432611691,0.02138095562901717,Refitted on frozen splits
+Invariance: V-REx l=10,env,envC0,0.8829867242775736,0.7251546146483292,0.05722491355394399,Refitted on frozen splits
+Invariance: V-REx l=10,env,envC1,1.101709615796289,0.6728187583663617,0.07205539691228235,Refitted on frozen splits
+Invariance: V-REx l=10,env,envC2,1.2205262164335833,0.6276758339988281,0.05304340464491438,Refitted on frozen splits
+Invariance: V-REx l=10,env,envC3,1.255474131396506,0.6893949980581331,0.06389194499160279,Refitted on frozen splits
+Invariance: V-REx l=10,env,envC4,1.0480988592907172,0.6428626989625432,0.04014130691262115,Refitted on frozen splits
+Invariance: V-REx l=10,loro,Africa,1.3493407922220226,0.7038056445868945,0.11798124629383049,Refitted on frozen splits
+Invariance: V-REx l=10,loro,Asia,1.3347359701941315,0.7283691615157497,0.11918807841734656,Refitted on frozen splits
+Invariance: V-REx l=10,loro,Europe,0.9365761933473024,0.7199043511564601,0.07074284031128016,Refitted on frozen splits
+Invariance: V-REx l=10,loro,Latin America,1.373013395293156,0.5780121203330584,0.07060166088936773,Refitted on frozen splits
+Invariance: V-REx l=10,loro,N America,1.2118379399062886,0.7125703410190246,0.07455491660459368,Refitted on frozen splits
+Invariance: V-REx l=10,loro,Oceania,1.2966479170575238,0.6633229234167431,0.1307436377381771,Refitted on frozen splits
+Invariance: V-REx l=10,zone,Arid,1.2215703049531474,0.6924274694738685,0.06793547268681417,Refitted on frozen splits
+Invariance: V-REx l=10,zone,Cold,0.8263615408502019,0.7162488006823836,0.059324097129930684,Refitted on frozen splits
+Invariance: V-REx l=10,zone,Temperate,1.2997259882813765,0.6561752344702191,0.0595340377225491,Refitted on frozen splits
+Invariance: V-REx l=10,zone,Tropical,1.2373665727738838,0.6576393659158677,0.05473542262938376,Refitted on frozen splits
+Pool control: MLP +pool,block10,fold0,1.0155623516644334,0.7383552398784463,0.029455679642856364,Refitted on frozen splits
+Pool control: MLP +pool,block10,fold1,0.997531793755499,0.7472964068447044,0.0346080605014167,Refitted on frozen splits
+Pool control: MLP +pool,block10,fold2,0.7928489369721264,0.7680732040945584,0.04127006091691507,Refitted on frozen splits
+Pool control: MLP +pool,block10,fold3,0.8879590504605402,0.7957168760449816,0.02459141892580031,Refitted on frozen splits
+Pool control: MLP +pool,block10,fold4,0.8610172028616534,0.7487934090542555,0.018289961042210427,Refitted on frozen splits
+Pool control: MLP +pool,env,envC0,0.7182917619390174,0.7527063931209593,0.02951185724418158,Refitted on frozen splits
+Pool control: MLP +pool,env,envC1,0.9215905404605413,0.6869390708651419,0.031100523886804884,Refitted on frozen splits
+Pool control: MLP +pool,env,envC2,1.1547977983951447,0.6022993881446672,0.057266004125700244,Refitted on frozen splits
+Pool control: MLP +pool,env,envC3,1.2328583330082827,0.7360953203725373,0.07725466118620505,Refitted on frozen splits
+Pool control: MLP +pool,env,envC4,1.0162586404568117,0.6771711388066787,0.034489798513404536,Refitted on frozen splits
+Pool control: MLP +pool,loro,Africa,1.9594843721271629,0.7316881729381729,0.14117769338009398,Refitted on frozen splits
+Pool control: MLP +pool,loro,Asia,1.1040376913944687,0.7522645805212356,0.0755804959237441,Refitted on frozen splits
+Pool control: MLP +pool,loro,Europe,0.9111471961411826,0.6997642423065339,0.07005631878396468,Refitted on frozen splits
+Pool control: MLP +pool,loro,Latin America,1.4879498659844048,0.5928962376945649,0.06271037932856317,Refitted on frozen splits
+Pool control: MLP +pool,loro,N America,1.5102939374970803,0.7253244236251201,0.1223931725050895,Refitted on frozen splits
+Pool control: MLP +pool,loro,Oceania,1.0921109445009607,0.6935821532502191,0.0944366796182292,Refitted on frozen splits
+Pool control: MLP +pool,zone,Arid,1.2269722770632123,0.7122945041648128,0.07282166110516021,Refitted on frozen splits
+Pool control: MLP +pool,zone,Cold,0.7394172631152091,0.698052349848,0.046568898307053144,Refitted on frozen splits
+Pool control: MLP +pool,zone,Temperate,1.1302794965700809,0.6963563344966566,0.04616494437806108,Refitted on frozen splits
+Pool control: MLP +pool,zone,Tropical,1.1503313288880161,0.6764045893325547,0.05863618702071585,Refitted on frozen splits
+Pool control: MLP base,block10,fold0,1.0346063543489181,0.7314301252629262,0.030307319242284456,Refitted on frozen splits
+Pool control: MLP base,block10,fold1,1.0101906657507127,0.7480649624631696,0.03401228974334643,Refitted on frozen splits
+Pool control: MLP base,block10,fold2,0.9068653241904758,0.719982588497948,0.058978261125926454,Refitted on frozen splits
+Pool control: MLP base,block10,fold3,0.9392087473031718,0.7843634858674127,0.04124441533454955,Refitted on frozen splits
+Pool control: MLP base,block10,fold4,0.8673353033565817,0.7394886213600514,0.018504674302021826,Refitted on frozen splits
+Pool control: MLP base,env,envC0,0.7245934325381456,0.7412895314602693,0.040227213683716075,Refitted on frozen splits
+Pool control: MLP base,env,envC1,1.0374012207062302,0.6613395221482016,0.05108091066865597,Refitted on frozen splits
+Pool control: MLP base,env,envC2,1.1038967412074006,0.6163693112425986,0.050139041346608196,Refitted on frozen splits
+Pool control: MLP base,env,envC3,1.2430508480178646,0.7179848016742699,0.07039907104157482,Refitted on frozen splits
+Pool control: MLP base,env,envC4,1.030918609424492,0.6524966292661976,0.036296378606556774,Refitted on frozen splits
+Pool control: MLP base,loro,Africa,1.7132301194369854,0.6458760279072779,0.14867624252851705,Refitted on frozen splits
+Pool control: MLP base,loro,Asia,1.206046441592764,0.7229985217473908,0.09636510831416392,Refitted on frozen splits
+Pool control: MLP base,loro,Europe,0.9192040907658117,0.7054274037183831,0.064711597677826,Refitted on frozen splits
+Pool control: MLP base,loro,Latin America,1.7055414710770203,0.5519425407487815,0.08450195291194454,Refitted on frozen splits
+Pool control: MLP base,loro,N America,1.4251463367886357,0.7120942582702454,0.1111933459078181,Refitted on frozen splits
+Pool control: MLP base,loro,Oceania,1.170165938193685,0.6097984419070951,0.11248698526101415,Refitted on frozen splits
+Pool control: MLP base,zone,Arid,1.2960711304908232,0.7102581876502825,0.08548856782029249,Refitted on frozen splits
+Pool control: MLP base,zone,Cold,0.746383990365724,0.699086544793673,0.04809094263002607,Refitted on frozen splits
+Pool control: MLP base,zone,Temperate,1.201641637641928,0.6859458988643468,0.050285016843544354,Refitted on frozen splits
+Pool control: MLP base,zone,Tropical,1.2702076492008756,0.6140261725062416,0.06358207134879754,Refitted on frozen splits
+Pool control: RF +pool,block10,fold0,1.0162914811857042,0.750978524113108,0.03551176284177112,Refitted on frozen splits
+Pool control: RF +pool,block10,fold1,0.9926987309185363,0.7650013441278405,0.045197205728855105,Refitted on frozen splits
+Pool control: RF +pool,block10,fold2,0.8176434426306178,0.7498515962622943,0.04600417855882949,Refitted on frozen splits
+Pool control: RF +pool,block10,fold3,0.9155794919096127,0.8048791161538392,0.04175434334310865,Refitted on frozen splits
+Pool control: RF +pool,block10,fold4,0.8541730367020379,0.768635412053251,0.014351983032861483,Refitted on frozen splits
+Pool control: RF +pool,env,envC0,0.7279806476671122,0.764097783610443,0.03561074604288042,Refitted on frozen splits
+Pool control: RF +pool,env,envC1,0.935278100590811,0.7077938719798444,0.04300389511402375,Refitted on frozen splits
+Pool control: RF +pool,env,envC2,1.095856238433289,0.6366691558083735,0.05338874718642385,Refitted on frozen splits
+Pool control: RF +pool,env,envC3,1.37763298188553,0.7083214699189224,0.10175670892207647,Refitted on frozen splits
+Pool control: RF +pool,env,envC4,0.9980863804268212,0.6766747748476089,0.01849756006617068,Refitted on frozen splits
+Pool control: RF +pool,loro,Africa,1.8454047206497743,0.7308511222573723,0.13246674219625015,Refitted on frozen splits
+Pool control: RF +pool,loro,Asia,1.2529217999703013,0.7738602533202896,0.11284013761307347,Refitted on frozen splits
+Pool control: RF +pool,loro,Europe,1.0593142322103,0.7038235611993647,0.09519856381263261,Refitted on frozen splits
+Pool control: RF +pool,loro,Latin America,1.3902677485130452,0.6436052666439779,0.09810761262022052,Refitted on frozen splits
+Pool control: RF +pool,loro,N America,1.1839867431195608,0.7510694244537384,0.0797014182112599,Refitted on frozen splits
+Pool control: RF +pool,loro,Oceania,1.154882268517294,0.6584300036592421,0.11840486313872134,Refitted on frozen splits
+Pool control: RF +pool,zone,Arid,1.4117346650885148,0.70824476040305,0.11955956770972753,Refitted on frozen splits
+Pool control: RF +pool,zone,Cold,0.7951187476562744,0.7146099807450889,0.0637633122928627,Refitted on frozen splits
+Pool control: RF +pool,zone,Temperate,1.1050820588843626,0.7144933613192416,0.0597100296646699,Refitted on frozen splits
+Pool control: RF +pool,zone,Tropical,1.1294992849151917,0.6978348471061943,0.04787619173688974,Refitted on frozen splits
+Pool control: RF base,block10,fold0,1.0266704080924154,0.7419011175330885,0.03732428943065629,Refitted on frozen splits
+Pool control: RF base,block10,fold1,1.0046043864928056,0.7539546804844522,0.045938730096515154,Refitted on frozen splits
+Pool control: RF base,block10,fold2,0.8316844557539866,0.747939874993663,0.044949999785632695,Refitted on frozen splits
+Pool control: RF base,block10,fold3,0.929150985348083,0.7978821714717614,0.03945805805292783,Refitted on frozen splits
+Pool control: RF base,block10,fold4,0.8600089857773213,0.7644317923959436,0.011854433690806977,Refitted on frozen splits
+Pool control: RF base,env,envC0,0.7457084502782976,0.7512892424579681,0.03130230299786519,Refitted on frozen splits
+Pool control: RF base,env,envC1,0.9496953662631876,0.6965992448197404,0.04461480368435504,Refitted on frozen splits
+Pool control: RF base,env,envC2,1.0948766402471766,0.6485924202188955,0.048157867014712155,Refitted on frozen splits
+Pool control: RF base,env,envC3,1.4086362034682784,0.6925409786528273,0.10542734321318069,Refitted on frozen splits
+Pool control: RF base,env,envC4,1.0012732094058414,0.6832320678813781,0.02212548126217472,Refitted on frozen splits
+Pool control: RF base,loro,Africa,1.691335138422815,0.7498577753265253,0.1301217976182837,Refitted on frozen splits
+Pool control: RF base,loro,Asia,1.292611283392798,0.7473724295707477,0.11620379965720812,Refitted on frozen splits
+Pool control: RF base,loro,Europe,1.0620236826245437,0.7033721956438449,0.08854970124600388,Refitted on frozen splits
+Pool control: RF base,loro,Latin America,1.4003770590558473,0.5996146301164433,0.09814407881575615,Refitted on frozen splits
+Pool control: RF base,loro,N America,1.147043335032426,0.742695113191282,0.0707794267966366,Refitted on frozen splits
+Pool control: RF base,loro,Oceania,1.142457748258893,0.6541109478825992,0.11582740382999517,Refitted on frozen splits
+Pool control: RF base,zone,Arid,1.4014392210967495,0.7244027624222537,0.11668831404392778,Refitted on frozen splits
+Pool control: RF base,zone,Cold,0.7972251884499195,0.7147247419252377,0.06366739553439488,Refitted on frozen splits
+Pool control: RF base,zone,Temperate,1.1177759602563564,0.7021111908528448,0.05777322323184786,Refitted on frozen splits
+Pool control: RF base,zone,Tropical,1.1361997641796213,0.688159601590648,0.03896140896325981,Refitted on frozen splits
+Proxy: AE,block10,fold0,1.046046991279347,0.7184728655844355,0.025156716119356527,Refitted on frozen splits
+Proxy: AE,block10,fold1,0.9742417756619893,0.7583714818314233,0.03215211466122908,Refitted on frozen splits
+Proxy: AE,block10,fold2,0.7738788649995402,0.7683165087427782,0.03400004271974803,Refitted on frozen splits
+Proxy: AE,block10,fold3,0.9139209498564148,0.7929293410272427,0.025468822978252946,Refitted on frozen splits
+Proxy: AE,block10,fold4,0.8836822403571051,0.7164165932715241,0.017834550578019248,Refitted on frozen splits
+Proxy: AE,loro,Africa,2.150512095590179,0.6422823761886262,0.15942191405092196,Refitted on frozen splits
+Proxy: AE,loro,Asia,1.1851326011582497,0.7298015707446363,0.08251222023406209,Refitted on frozen splits
+Proxy: AE,loro,Europe,1.5608916621816271,0.6345966420578066,0.14849907370156543,Refitted on frozen splits
+Proxy: AE,loro,Latin America,1.4317462377435886,0.528010133455217,0.0917469015139343,Refitted on frozen splits
+Proxy: AE,loro,N America,1.6518891915489413,0.5921373752501284,0.1137889783223544,Refitted on frozen splits
+Proxy: AE,loro,Oceania,1.3802361586983936,0.6162617856330246,0.15168640453270332,Refitted on frozen splits
+Proxy: AE,zone,Arid,1.3454491645951123,0.7010699617550686,0.09712796591794529,Refitted on frozen splits
+Proxy: AE,zone,Cold,0.7677374798353616,0.6958190888123822,0.051308137992944536,Refitted on frozen splits
+Proxy: AE,zone,Temperate,1.1503755757288536,0.6728589152843252,0.06306515321898219,Refitted on frozen splits
+Proxy: AE,zone,Tropical,1.230112468033648,0.6721912033022003,0.07242162091178389,Refitted on frozen splits
+Proxy: AE_hat (driver-explained),block10,fold0,1.2210823849251802,0.6807223411115495,0.06681452831167929,Refitted on frozen splits
+Proxy: AE_hat (driver-explained),block10,fold1,1.06190342177038,0.7274255859825087,0.05431535071721222,Refitted on frozen splits
+Proxy: AE_hat (driver-explained),block10,fold2,0.9556259686972937,0.6616067480263704,0.051103792013228934,Refitted on frozen splits
+Proxy: AE_hat (driver-explained),block10,fold3,1.2239519610894203,0.6634884016608605,0.08027070451445292,Refitted on frozen splits
+Proxy: AE_hat (driver-explained),block10,fold4,0.9122654070999617,0.7206902183377533,0.02225166241911753,Refitted on frozen splits
+Proxy: AE_hat (driver-explained),loro,Africa,2.6069297243386984,0.6773229721667222,0.16097706196290937,Refitted on frozen splits
+Proxy: AE_hat (driver-explained),loro,Asia,1.8166123008741388,0.7269395827533474,0.13166174420003068,Refitted on frozen splits
+Proxy: AE_hat (driver-explained),loro,Europe,1.8237677143758217,0.6455055201766395,0.12041057325815607,Refitted on frozen splits
+Proxy: AE_hat (driver-explained),loro,Latin America,1.4472577849886459,0.5361257461274422,0.09684470979339001,Refitted on frozen splits
+Proxy: AE_hat (driver-explained),loro,N America,1.904043875146379,0.5720819094002358,0.12461853162161314,Refitted on frozen splits
+Proxy: AE_hat (driver-explained),loro,Oceania,1.2688948570201621,0.46121521663570975,0.1315910445777554,Refitted on frozen splits
+Proxy: AE_hat (driver-explained),zone,Arid,1.5092342056065076,0.6724294199735675,0.10112201777896822,Refitted on frozen splits
+Proxy: AE_hat (driver-explained),zone,Cold,0.7724367368159669,0.6553597208871855,0.044369684950186165,Refitted on frozen splits
+Proxy: AE_hat (driver-explained),zone,Temperate,1.146969796247229,0.6622080528045935,0.05256505204478836,Refitted on frozen splits
+Proxy: AE_hat (driver-explained),zone,Tropical,1.8025663869247832,0.4988691891248975,0.11580011103970357,Refitted on frozen splits
+Proxy: AE_perp (residual),block10,fold0,1.422883038109973,0.553099151856089,0.08476955759044331,Refitted on frozen splits
+Proxy: AE_perp (residual),block10,fold1,1.0814529120221874,0.6912826302204912,0.03921763390553319,Refitted on frozen splits
+Proxy: AE_perp (residual),block10,fold2,0.8041893973271261,0.7127501353697124,0.027508372614869266,Refitted on frozen splits
+Proxy: AE_perp (residual),block10,fold3,1.3874183274492595,0.5193428550365464,0.09516679068975956,Refitted on frozen splits
+Proxy: AE_perp (residual),block10,fold4,1.0239655163413541,0.6488507339057455,0.03194211822552089,Refitted on frozen splits
+Proxy: AE_perp (residual),loro,Africa,2.6386676072088813,0.5706566003441004,0.17695324786681949,Refitted on frozen splits
+Proxy: AE_perp (residual),loro,Asia,2.019020665332164,0.6662070106064754,0.15834078650941674,Refitted on frozen splits
+Proxy: AE_perp (residual),loro,Europe,1.2687042068313812,0.5096970498290535,0.07235074695628588,Refitted on frozen splits
+Proxy: AE_perp (residual),loro,Latin America,1.769263262205526,0.44161300678519744,0.12670640189787194,Refitted on frozen splits
+Proxy: AE_perp (residual),loro,N America,1.3866647909216874,0.4737065047110237,0.07515242440036045,Refitted on frozen splits
+Proxy: AE_perp (residual),loro,Oceania,1.1819854732669157,0.5404395703954499,0.10123178807170972,Refitted on frozen splits
+Proxy: AE_perp (residual),zone,Arid,2.247588345971105,0.5816513546856507,0.13711903185175695,Refitted on frozen splits
+Proxy: AE_perp (residual),zone,Cold,1.1202067960002078,0.6138415965637263,0.11827317957192539,Refitted on frozen splits
+Proxy: AE_perp (residual),zone,Temperate,1.2357089333892146,0.5675223964000117,0.07167135602303695,Refitted on frozen splits
+Proxy: AE_perp (residual),zone,Tropical,1.3669874641882755,0.4562868836093205,0.07521347191181094,Refitted on frozen splits
+Proxy: Drivers+Human,block10,fold0,1.1424188413583398,0.6924190959887921,0.05683308339805959,Refitted on frozen splits
+Proxy: Drivers+Human,block10,fold1,1.1767013866716978,0.7177101033400339,0.06754221866379805,Refitted on frozen splits
+Proxy: Drivers+Human,block10,fold2,0.903862953798932,0.7414959531481417,0.04116566095376269,Refitted on frozen splits
+Proxy: Drivers+Human,block10,fold3,1.1225428067347947,0.7389117238565905,0.06058572496113304,Refitted on frozen splits
+Proxy: Drivers+Human,block10,fold4,0.9541809466215576,0.673534662383341,0.015394117055654263,Refitted on frozen splits
+Proxy: Drivers+Human,loro,Africa,1.9273945138746704,0.6119495492932993,0.15050703834501977,Refitted on frozen splits
+Proxy: Drivers+Human,loro,Asia,1.7325784646021791,0.7311110056424883,0.12772289165880568,Refitted on frozen splits
+Proxy: Drivers+Human,loro,Europe,1.5802327571408168,0.7024167959127786,0.10251938651115836,Refitted on frozen splits
+Proxy: Drivers+Human,loro,Latin America,1.40515678093932,0.6189952648372511,0.10033978481237826,Refitted on frozen splits
+Proxy: Drivers+Human,loro,N America,1.2086924331502074,0.6877463945827632,0.0744712356038249,Refitted on frozen splits
+Proxy: Drivers+Human,loro,Oceania,1.1445304730069095,0.5827836720545123,0.11302870349626835,Refitted on frozen splits
+Proxy: Drivers+Human,zone,Arid,1.4296154412462418,0.6746103775421672,0.09598181790552103,Refitted on frozen splits
+Proxy: Drivers+Human,zone,Cold,0.9331726566477837,0.6915069284311751,0.06862221079713325,Refitted on frozen splits
+Proxy: Drivers+Human,zone,Temperate,1.2324356492434563,0.6464559304102204,0.051616393007995566,Refitted on frozen splits
+Proxy: Drivers+Human,zone,Tropical,2.077205460319829,0.6180637664807186,0.11932547552575025,Refitted on frozen splits
+RF,block10,fold0,1.0266707908165227,0.7419011175330885,0.03732420655540674,Refitted on frozen splits
+RF,block10,fold1,1.0046044497754187,0.7539546804844522,0.04593874875511538,Refitted on frozen splits
+RF,block10,fold2,0.8316845005887243,0.747939874993663,0.044950009710573585,Refitted on frozen splits
+RF,block10,fold3,0.9291516971611,0.7978821714717614,0.03945819568465906,Refitted on frozen splits
+RF,block10,fold4,0.8600093154862333,0.7644317923959436,0.011854497964577378,Refitted on frozen splits
+RF,env,envC0,0.7457084502782975,0.7512892424579681,0.03130230299786519,Refitted on frozen splits
+RF,env,envC1,0.9496953662631876,0.6965992448197404,0.04461480368435504,Refitted on frozen splits
+RF,env,envC2,1.0948766402471766,0.6485924202188955,0.048157867014712155,Refitted on frozen splits
+RF,env,envC3,1.4086362034682784,0.6925409786528273,0.10542734321318069,Refitted on frozen splits
+RF,env,envC4,1.0012732094058414,0.6832320678813781,0.022125481262174715,Refitted on frozen splits
+RF,loro,Africa,1.6913351384228148,0.7498577753265253,0.1301217976182837,Refitted on frozen splits
+RF,loro,Asia,1.292611283392798,0.7473724295707477,0.11620379965720812,Refitted on frozen splits
+RF,loro,Europe,1.0620236826245437,0.7033721956438449,0.08854970124600385,Refitted on frozen splits
+RF,loro,Latin America,1.400377059055847,0.5996146301164433,0.09814407881575615,Refitted on frozen splits
+RF,loro,N America,1.147043335032426,0.742695113191282,0.0707794267966366,Refitted on frozen splits
+RF,loro,Oceania,1.142457748258893,0.6541109478825992,0.11582740382999517,Refitted on frozen splits
+RF,zone,Arid,1.4014392210967495,0.7244027624222537,0.11668831404392777,Refitted on frozen splits
+RF,zone,Cold,0.7972251884499195,0.7147247419252377,0.06366739553439488,Refitted on frozen splits
+RF,zone,Temperate,1.1177759602563564,0.7021111908528448,0.05777322323184786,Refitted on frozen splits
+RF,zone,Tropical,1.1361997641796213,0.688159601590648,0.03896140896325981,Refitted on frozen splits
+RF+Recon,block10,fold0,1.0417333690684698,0.7346629811970492,0.03790657372260007,Refitted on frozen splits
+RF+Recon,block10,fold1,1.006692076999441,0.7630711637919132,0.04904903740479966,Refitted on frozen splits
+RF+Recon,block10,fold2,0.8678362539863909,0.7491981193465389,0.04832559672687649,Refitted on frozen splits
+RF+Recon,block10,fold3,0.9122641072167488,0.7980732531076714,0.031502671936962316,Refitted on frozen splits
+RF+Recon,block10,fold4,0.8732237290268332,0.7614684733323893,0.02211253843089092,Refitted on frozen splits
+RF+Recon,env,envC0,0.765623894618973,0.7523778652110776,0.03674470339675261,Refitted on frozen splits
+RF+Recon,env,envC1,0.9715677556956386,0.6973295218401866,0.050871970492144564,Refitted on frozen splits
+RF+Recon,env,envC2,1.1053239674536268,0.6388686959360408,0.05457654786472488,Refitted on frozen splits
+RF+Recon,env,envC3,1.358981511807142,0.7016027960660055,0.09685393540251129,Refitted on frozen splits
+RF+Recon,env,envC4,0.9957238731238885,0.6880911897042227,0.02317043687732932,Refitted on frozen splits
+RF+Recon,loro,Africa,1.5508735496680082,0.7535778226403227,0.12189593154912329,Refitted on frozen splits
+RF+Recon,loro,Asia,1.327403297597066,0.736525907395278,0.12415894828507462,Refitted on frozen splits
+RF+Recon,loro,Europe,1.0780734037103652,0.6974278883634207,0.09424117368673542,Refitted on frozen splits
+RF+Recon,loro,Latin America,1.3741989789368159,0.5640107643704309,0.09163562769527389,Refitted on frozen splits
+RF+Recon,loro,N America,1.1749989176972515,0.719810008636355,0.07414117290100272,Refitted on frozen splits
+RF+Recon,loro,Oceania,1.253752461301387,0.6472038399818627,0.13595111634185375,Refitted on frozen splits
+RF+Recon,zone,Arid,1.3513681200962355,0.7175007571387177,0.10876232873708833,Refitted on frozen splits
+RF+Recon,zone,Cold,0.8512889887877655,0.7003164967177202,0.07373987783524183,Refitted on frozen splits
+RF+Recon,zone,Temperate,1.161247079112052,0.6947356912147317,0.0657661214050522,Refitted on frozen splits
+RF+Recon,zone,Tropical,1.1477945408592893,0.7002222594709581,0.045393392502752955,Refitted on frozen splits
+RF+pool4-control,block10,fold0,1.0164604172455107,0.7526408293801599,0.03473087711777949,"New source-matched control, refitted on frozen splits"
+RF+pool4-control,block10,fold1,0.9930335720886797,0.7677599122330467,0.05016263575739155,"New source-matched control, refitted on frozen splits"
+RF+pool4-control,block10,fold2,0.8318193869530048,0.7514623404049531,0.046941930550520386,"New source-matched control, refitted on frozen splits"
+RF+pool4-control,block10,fold3,0.9148871421963126,0.8054886643430382,0.04567086991629755,"New source-matched control, refitted on frozen splits"
+RF+pool4-control,block10,fold4,0.8535950591610235,0.7663772507116067,0.018916149565101372,"New source-matched control, refitted on frozen splits"
+RF+pool4-control,env,envC0,0.7255371324102343,0.7719625143345269,0.03980913999410017,"New source-matched control, refitted on frozen splits"
+RF+pool4-control,env,envC1,0.9370542195894889,0.705836203499875,0.042560452206126795,"New source-matched control, refitted on frozen splits"
+RF+pool4-control,env,envC2,1.0894755324748358,0.6415535619653204,0.048603215906235606,"New source-matched control, refitted on frozen splits"
+RF+pool4-control,env,envC3,1.358848965998267,0.7147784914251096,0.09502045299304833,"New source-matched control, refitted on frozen splits"
+RF+pool4-control,env,envC4,0.9939878773747044,0.6786877094847029,0.016482602504811386,"New source-matched control, refitted on frozen splits"
+RF+pool4-control,loro,Africa,1.6856015118922476,0.756354900886151,0.13905011045257654,"New source-matched control, refitted on frozen splits"
+RF+pool4-control,loro,Asia,1.2512573449782771,0.7743004273848153,0.1130559593825131,"New source-matched control, refitted on frozen splits"
+RF+pool4-control,loro,Europe,1.0411107339736527,0.7203366737172375,0.09619497755171617,"New source-matched control, refitted on frozen splits"
+RF+pool4-control,loro,Latin America,1.3760924011588733,0.6597729576434698,0.09784857745183086,"New source-matched control, refitted on frozen splits"
+RF+pool4-control,loro,N America,1.17594161421891,0.743608755554903,0.0775384515147948,"New source-matched control, refitted on frozen splits"
+RF+pool4-control,loro,Oceania,1.1670584987138255,0.6657004024116916,0.12222530058745511,"New source-matched control, refitted on frozen splits"
+RF+pool4-control,zone,Arid,1.3732753882254203,0.7273506359444505,0.10664274078135298,"New source-matched control, refitted on frozen splits"
+RF+pool4-control,zone,Cold,0.8016184629074142,0.7148043006752873,0.06561121727862763,"New source-matched control, refitted on frozen splits"
+RF+pool4-control,zone,Temperate,1.1097000807437907,0.7070919835367057,0.05637671295727292,"New source-matched control, refitted on frozen splits"
+RF+pool4-control,zone,Tropical,1.1217690539427647,0.7016445687420159,0.04369397357815026,"New source-matched control, refitted on frozen splits"
+Weighting: Attn-env,block10,fold0,1.0417767763137817,0.7214495971741646,0.019367970526218414,Refitted on frozen splits
+Weighting: Attn-env,block10,fold1,0.9863166809082031,0.7806388941049793,0.04525626450777054,Refitted on frozen splits
+Weighting: Attn-env,block10,fold2,0.7692359089851379,0.7657056071228758,0.027524657547473907,Refitted on frozen splits
+Weighting: Attn-env,block10,fold3,0.9501051306724548,0.802363499080974,0.030224820598959923,Refitted on frozen splits
+Weighting: Attn-env,block10,fold4,0.973907470703125,0.7455310215615806,0.04513483867049217,Refitted on frozen splits
+Weighting: Attn-env,env,envC0,0.7170037031173706,0.7796386351353407,0.030158527195453644,Refitted on frozen splits
+Weighting: Attn-env,env,envC1,0.9501507878303528,0.6612483275657817,0.03182292729616165,Refitted on frozen splits
+Weighting: Attn-env,env,envC2,1.36334228515625,0.6091728019775391,0.05857942998409271,Refitted on frozen splits
+Weighting: Attn-env,env,envC3,1.3920469284057617,0.6707510999161654,0.08197789639234543,Refitted on frozen splits
+Weighting: Attn-env,env,envC4,0.9736196398735046,0.6933883543916194,0.023378944024443626,Refitted on frozen splits
+Weighting: Attn-env,loro,Africa,1.9956735372543335,0.6372845325970327,0.19954611361026764,Refitted on frozen splits
+Weighting: Attn-env,loro,Asia,2.0833051204681396,0.6297049149380425,0.13584834337234497,Refitted on frozen splits
+Weighting: Attn-env,loro,Europe,1.0650869607925415,0.6257364199634167,0.07690533250570297,Refitted on frozen splits
+Weighting: Attn-env,loro,Latin America,1.6217364072799683,0.5412949976817706,0.10230626165866852,Refitted on frozen splits
+Weighting: Attn-env,loro,N America,1.3720612525939941,0.6325373692168011,0.07494840025901794,Refitted on frozen splits
+Weighting: Attn-env,loro,Oceania,1.4236279726028442,0.531823196348125,0.1505116969347,Refitted on frozen splits
+Weighting: Attn-support,block10,fold0,1.0502080917358398,0.7160655378863119,0.023067694157361984,Refitted on frozen splits
+Weighting: Attn-support,block10,fold1,1.0196046829223633,0.7739402928663656,0.04297809302806854,Refitted on frozen splits
+Weighting: Attn-support,block10,fold2,0.8289504051208496,0.7526396995052055,0.03840579465031624,Refitted on frozen splits
+Weighting: Attn-support,block10,fold3,0.9582133889198303,0.800837132952155,0.03668101131916046,Refitted on frozen splits
+Weighting: Attn-support,block10,fold4,0.98028165102005,0.7421742388638017,0.04492417350411415,Refitted on frozen splits
+Weighting: Attn-support,env,envC0,0.7470280528068542,0.7711653998721104,0.030673637986183167,Refitted on frozen splits
+Weighting: Attn-support,env,envC1,0.9287236332893372,0.6797888041303387,0.03168150782585144,Refitted on frozen splits
+Weighting: Attn-support,env,envC2,1.3340084552764893,0.6306966259119451,0.05794147402048111,Refitted on frozen splits
+Weighting: Attn-support,env,envC3,1.2361847162246704,0.7198790548911836,0.07077787816524506,Refitted on frozen splits
+Weighting: Attn-support,env,envC4,0.9952453374862671,0.681674570996117,0.02631988190114498,Refitted on frozen splits
+Weighting: Attn-support,loro,Africa,2.5173985958099365,0.6419033744033744,0.19302938878536224,Refitted on frozen splits
+Weighting: Attn-support,loro,Asia,1.7615879774093628,0.6809401179703636,0.11557640880346298,Refitted on frozen splits
+Weighting: Attn-support,loro,Europe,1.1135855913162231,0.622079404321216,0.0903826504945755,Refitted on frozen splits
+Weighting: Attn-support,loro,Latin America,1.760892629623413,0.6460339415279378,0.1052311509847641,Refitted on frozen splits
+Weighting: Attn-support,loro,N America,1.2505886554718018,0.6690513262115284,0.06395627558231354,Refitted on frozen splits
+Weighting: Attn-support,loro,Oceania,1.330883502960205,0.5541856509547509,0.13716267049312592,Refitted on frozen splits
+Weighting: Equal,block10,fold0,1.0291074796964683,0.7329667328816768,0.01967428973764581,Refitted on frozen splits
+Weighting: Equal,block10,fold1,0.9954705972700879,0.7701829532666085,0.045511731523056806,Refitted on frozen splits
+Weighting: Equal,block10,fold2,0.8296039066463335,0.76550345433768,0.0550421662772833,Refitted on frozen splits
+Weighting: Equal,block10,fold3,0.968211096989776,0.8122052732271959,0.044070597561914046,Refitted on frozen splits
+Weighting: Equal,block10,fold4,0.8617580644631394,0.7666877427799446,0.02459497943230717,Refitted on frozen splits
+Weighting: Equal,env,envC0,0.749467466334113,0.781919121496938,0.04903029418349346,Refitted on frozen splits
+Weighting: Equal,env,envC1,0.9915704284342759,0.6753041974961516,0.04931525203510714,Refitted on frozen splits
+Weighting: Equal,env,envC2,1.1422104484870752,0.6172445004531996,0.04190448913997051,Refitted on frozen splits
+Weighting: Equal,env,envC3,1.2967210466252352,0.7351756201849904,0.09375944570065126,Refitted on frozen splits
+Weighting: Equal,env,envC4,1.0031050612572794,0.67973537265993,0.03447028009302843,Refitted on frozen splits
+Weighting: Equal,loro,Africa,1.9821272290680476,0.6756888713138713,0.16936631016427778,Refitted on frozen splits
+Weighting: Equal,loro,Asia,1.7886006155975362,0.7255943168861061,0.1364882869986753,Refitted on frozen splits
+Weighting: Equal,loro,Europe,1.0600898062937318,0.6615468974241671,0.08401817393390171,Refitted on frozen splits
+Weighting: Equal,loro,Latin America,1.4902940736588142,0.636432288373188,0.09584560411831827,Refitted on frozen splits
+Weighting: Equal,loro,N America,1.0775644614468625,0.6884174723796247,0.039214622433489055,Refitted on frozen splits
+Weighting: Equal,loro,Oceania,1.1554679201225526,0.42874396976656504,0.11823764360657706,Refitted on frozen splits
+Weighting: Only:AlphaEarth,block10,fold0,1.0623769891654524,0.7082806751220359,0.024569982513090213,Refitted on frozen splits
+Weighting: Only:AlphaEarth,block10,fold1,1.044418082185478,0.7443668643324423,0.03954446294206428,Refitted on frozen splits
+Weighting: Only:AlphaEarth,block10,fold2,0.8395496835168819,0.7411496433969823,0.04289837760113987,Refitted on frozen splits
+Weighting: Only:AlphaEarth,block10,fold3,0.8970105022489331,0.7920841210155614,0.021768066362395387,Refitted on frozen splits
+Weighting: Only:AlphaEarth,block10,fold4,0.8938830865594214,0.7370656902126507,0.026866532141602343,Refitted on frozen splits
+Weighting: Only:AlphaEarth,env,envC0,0.70245356613881,0.7475915929756782,0.016462023155409608,Refitted on frozen splits
+Weighting: Only:AlphaEarth,env,envC1,0.9718221715700432,0.6685164928013551,0.04006188002259361,Refitted on frozen splits
+Weighting: Only:AlphaEarth,env,envC2,1.1934721084997852,0.6006485178665786,0.05843536960425625,Refitted on frozen splits
+Weighting: Only:AlphaEarth,env,envC3,1.2153037476264223,0.7195512611147765,0.06672815119892633,Refitted on frozen splits
+Weighting: Only:AlphaEarth,env,envC4,1.0549638219493673,0.6546965029160744,0.037515838590373864,Refitted on frozen splits
+Weighting: Only:AlphaEarth,loro,Africa,2.0425381473124666,0.5873087618400119,0.1828204291347498,Refitted on frozen splits
+Weighting: Only:AlphaEarth,loro,Asia,1.1933421032204856,0.7391093412538763,0.0842493779908719,Refitted on frozen splits
+Weighting: Only:AlphaEarth,loro,Europe,1.1091526047772504,0.6134887089104254,0.0908082694142601,Refitted on frozen splits
+Weighting: Only:AlphaEarth,loro,Latin America,1.8061635954274289,0.5004331922398955,0.09792241929439365,Refitted on frozen splits
+Weighting: Only:AlphaEarth,loro,N America,1.2415005048870518,0.7056820689476487,0.07788713557162047,Refitted on frozen splits
+Weighting: Only:AlphaEarth,loro,Oceania,1.2635555327778965,0.6529651890657885,0.12813435431379713,Refitted on frozen splits
+Weighting: Only:Climate,block10,fold0,1.12234260906723,0.6841466743682457,0.04000064442378102,Refitted on frozen splits
+Weighting: Only:Climate,block10,fold1,1.1426511437569213,0.663932716830217,0.057089910359478246,Refitted on frozen splits
+Weighting: Only:Climate,block10,fold2,1.1088735954982396,0.6090027250966791,0.048894120844633904,Refitted on frozen splits
+Weighting: Only:Climate,block10,fold3,1.1037008906430217,0.7589720903429913,0.04376348165007383,Refitted on frozen splits
+Weighting: Only:Climate,block10,fold4,0.9181589550594348,0.7416758854460667,0.022826304841307564,Refitted on frozen splits
+Weighting: Only:Climate,env,envC0,0.8644880397378928,0.7584306920741251,0.039713362337718446,Refitted on frozen splits
+Weighting: Only:Climate,env,envC1,1.1499081672005962,0.4423661880434886,0.05900092615590527,Refitted on frozen splits
+Weighting: Only:Climate,env,envC2,1.653532035361082,0.6011411606912181,0.07000257152611129,Refitted on frozen splits
+Weighting: Only:Climate,env,envC3,1.5271515846114732,0.6179671166325358,0.0753754415630265,Refitted on frozen splits
+Weighting: Only:Climate,env,envC4,1.1547798356296328,0.6006565836229673,0.050292851378726064,Refitted on frozen splits
+Weighting: Only:Climate,loro,Africa,1.7519591446480858,0.5867806383431383,0.16691245991508055,Refitted on frozen splits
+Weighting: Only:Climate,loro,Asia,3.081510342136892,0.6712107386471142,0.151806343966644,Refitted on frozen splits
+Weighting: Only:Climate,loro,Europe,1.2559537904345575,0.6390194687087399,0.10761918078827566,Refitted on frozen splits
+Weighting: Only:Climate,loro,Latin America,1.9537919214433137,0.5347458125638902,0.12717934596122146,Refitted on frozen splits
+Weighting: Only:Climate,loro,N America,1.2307260062212086,0.6482774935307498,0.07021936116963028,Refitted on frozen splits
+Weighting: Only:Climate,loro,Oceania,1.276244897267472,0.5056922267182773,0.13846151894010839,Refitted on frozen splits
+Weighting: Only:Geo,block10,fold0,1.1532296610153738,0.664020238970744,0.03727160959255643,Refitted on frozen splits
+Weighting: Only:Geo,block10,fold1,1.0269785807190464,0.7299919256064243,0.04801356365599223,Refitted on frozen splits
+Weighting: Only:Geo,block10,fold2,0.7925381241152323,0.7673737697753,0.026764576556302638,Refitted on frozen splits
+Weighting: Only:Geo,block10,fold3,1.0473023279028153,0.7750795812468493,0.040568865170017024,Refitted on frozen splits
+Weighting: Only:Geo,block10,fold4,0.8785588906915143,0.7277408186468253,0.018208501347578593,Refitted on frozen splits
+Weighting: Only:Geo,env,envC0,0.8799773277357948,0.691915897772365,0.047325401548328275,Refitted on frozen splits
+Weighting: Only:Geo,env,envC1,1.022035986132675,0.6363677714567714,0.0490178153877352,Refitted on frozen splits
+Weighting: Only:Geo,env,envC2,1.264135477807222,0.5888736764618694,0.04554031011156934,Refitted on frozen splits
+Weighting: Only:Geo,env,envC3,1.7995204485260892,0.6426918850664299,0.09321785190347238,Refitted on frozen splits
+Weighting: Only:Geo,env,envC4,1.063661879909004,0.6592895959938998,0.0348880315227253,Refitted on frozen splits
+Weighting: Only:Geo,loro,Africa,2.308346293126991,0.43373941452066456,0.24489382304431329,Refitted on frozen splits
+Weighting: Only:Geo,loro,Asia,2.610846779575832,0.5687061535278802,0.1450684826161864,Refitted on frozen splits
+Weighting: Only:Geo,loro,Europe,1.0035817223049863,0.675819863649184,0.05799011153492663,Refitted on frozen splits
+Weighting: Only:Geo,loro,Latin America,1.3561696056726231,0.5203963060578779,0.0746623163856227,Refitted on frozen splits
+Weighting: Only:Geo,loro,N America,1.3883128139480556,0.5763353927974375,0.08132757499091077,Refitted on frozen splits
+Weighting: Only:Geo,loro,Oceania,1.8008334215424437,0.3391406878310523,0.19241618307209857,Refitted on frozen splits
+Weighting: Only:Human,block10,fold0,1.1092296737097618,0.6459780394377779,0.02554628281930156,Refitted on frozen splits
+Weighting: Only:Human,block10,fold1,1.1077555889121962,0.6321128327816944,0.04124866955008385,Refitted on frozen splits
+Weighting: Only:Human,block10,fold2,0.9813191201402844,0.6245610569933567,0.021769616139961364,Refitted on frozen splits
+Weighting: Only:Human,block10,fold3,1.298369679817416,0.6205733037354857,0.057516703587420726,Refitted on frozen splits
+Weighting: Only:Human,block10,fold4,1.0228276699905465,0.6162928658975829,0.02905557907606727,Refitted on frozen splits
+Weighting: Only:Human,env,envC0,1.1042455252906958,0.5295524356628658,0.06388191703828364,Refitted on frozen splits
+Weighting: Only:Human,env,envC1,1.10049524132955,0.5893844616065446,0.05552588764122454,Refitted on frozen splits
+Weighting: Only:Human,env,envC2,1.165647410864634,0.585741822316934,0.05187345172590882,Refitted on frozen splits
+Weighting: Only:Human,env,envC3,1.6645625054097406,0.6259011050904109,0.11194947128439676,Refitted on frozen splits
+Weighting: Only:Human,env,envC4,1.0714895423642476,0.6226485910990794,0.05322928236496294,Refitted on frozen splits
+Weighting: Only:Human,loro,Africa,2.6072132880084466,0.5975035901598401,0.16625108739185826,Refitted on frozen splits
+Weighting: Only:Human,loro,Asia,1.546866326500282,0.6109285296951615,0.11155822891607341,Refitted on frozen splits
+Weighting: Only:Human,loro,Europe,1.2487059233660363,0.5402018628365587,0.0909367436738225,Refitted on frozen splits
+Weighting: Only:Human,loro,Latin America,1.644305357714576,0.6180240134675367,0.13011211060284625,Refitted on frozen splits
+Weighting: Only:Human,loro,N America,1.1283974271752504,0.6058301294445273,0.031775360562013986,Refitted on frozen splits
+Weighting: Only:Human,loro,Oceania,1.0035980766168422,0.5670166084708099,0.08607699999303661,Refitted on frozen splits
+Weighting: Only:Landscape,block10,fold0,1.0633126401446606,0.689894011524446,0.020898786105076256,Refitted on frozen splits
+Weighting: Only:Landscape,block10,fold1,1.1570460865246373,0.6715574653449836,0.05681198266175255,Refitted on frozen splits
+Weighting: Only:Landscape,block10,fold2,1.0436567759052502,0.6382828863618745,0.038011732257780484,Refitted on frozen splits
+Weighting: Only:Landscape,block10,fold3,1.1158625136160756,0.7261221795528765,0.050091121129459244,Refitted on frozen splits
+Weighting: Only:Landscape,block10,fold4,0.9681040768064857,0.6533829208158571,0.016671171101432944,Refitted on frozen splits
+Weighting: Only:Landscape,env,envC0,0.9602152917503071,0.6433051869161269,0.04257150310509694,Refitted on frozen splits
+Weighting: Only:Landscape,env,envC1,1.0750770307802395,0.5696689970146852,0.05172632169342049,Refitted on frozen splits
+Weighting: Only:Landscape,env,envC2,1.1912242474757142,0.5880996593907134,0.05939222774463621,Refitted on frozen splits
+Weighting: Only:Landscape,env,envC3,1.4348845795953333,0.6319396128677298,0.09652771656311067,Refitted on frozen splits
+Weighting: Only:Landscape,env,envC4,1.1539709244626821,0.5990482891821484,0.06693859678834488,Refitted on frozen splits
+Weighting: Only:Landscape,loro,Africa,2.13737048834797,0.6144737438487439,0.15999975015852014,Refitted on frozen splits
+Weighting: Only:Landscape,loro,Asia,1.5415088721892845,0.7326200219978298,0.12540803137064016,Refitted on frozen splits
+Weighting: Only:Landscape,loro,Europe,1.0936601463334017,0.6273195859202035,0.08025915825512758,Refitted on frozen splits
+Weighting: Only:Landscape,loro,Latin America,1.704928144349082,0.6328550636257346,0.11756219261631812,Refitted on frozen splits
+Weighting: Only:Landscape,loro,N America,1.1667824587931315,0.6124698574017798,0.04417706205839418,Refitted on frozen splits
+Weighting: Only:Landscape,loro,Oceania,1.1909967315376888,0.5840430106909285,0.11611477169914328,Refitted on frozen splits
+Weighting: Reliability,block10,fold0,1.038861632347107,0.7217055399531868,0.021936288103461266,Refitted on frozen splits
+Weighting: Reliability,block10,fold1,0.9789363741874695,0.7754496503014878,0.038431037217378616,Refitted on frozen splits
+Weighting: Reliability,block10,fold2,0.7979610562324524,0.7564156524154515,0.03523092344403267,Refitted on frozen splits
+Weighting: Reliability,block10,fold3,0.9492925405502319,0.8035715768886053,0.035462912172079086,Refitted on frozen splits
+Weighting: Reliability,block10,fold4,0.8721582293510437,0.7437980095954932,0.02312687784433365,Refitted on frozen splits
+Weighting: Reliability,env,envC0,0.7138835787773132,0.7614105039110555,0.02147335559129715,Refitted on frozen splits
+Weighting: Reliability,env,envC1,0.9669936299324036,0.6708244907108493,0.040711089968681335,Refitted on frozen splits
+Weighting: Reliability,env,envC2,1.1426265239715576,0.6155408415807536,0.04090673476457596,Refitted on frozen splits
+Weighting: Reliability,env,envC3,1.4041298627853394,0.7195280079687675,0.08411163836717606,Refitted on frozen splits
+Weighting: Reliability,env,envC4,0.9917152523994446,0.676638500873604,0.025864416733384132,Refitted on frozen splits
+Weighting: Reliability,loro,Africa,1.8503928184509277,0.5769464274151774,0.17423619329929352,Refitted on frozen splits
+Weighting: Reliability,loro,Asia,1.7176294326782227,0.7184843533518719,0.1284818798303604,Refitted on frozen splits
+Weighting: Reliability,loro,Europe,1.0299193859100342,0.6641426439727426,0.080870121717453,Refitted on frozen splits
+Weighting: Reliability,loro,Latin America,1.3845415115356445,0.5749490352483839,0.09011582285165787,Refitted on frozen splits
+Weighting: Reliability,loro,N America,1.141282081604004,0.6894286532889033,0.05348242446780205,Refitted on frozen splits
+Weighting: Reliability,loro,Oceania,1.1966489553451538,0.42499986630833675,0.12545907497406006,Refitted on frozen splits
+Weighting: Stack-global,block10,fold0,1.0466052293777466,0.7004718963585718,0.027521193027496338,Refitted on frozen splits
+Weighting: Stack-global,block10,fold1,0.9406843781471252,0.7722474083687936,0.03413113206624985,Refitted on frozen splits
+Weighting: Stack-global,block10,fold2,0.7629362344741821,0.7859758997642994,0.048005856573581696,Refitted on frozen splits
+Weighting: Stack-global,block10,fold3,0.9352924823760986,0.8026134821083175,0.02195458486676216,Refitted on frozen splits
+Weighting: Stack-global,block10,fold4,0.8419727087020874,0.7606266194567706,0.020145155489444733,Refitted on frozen splits
+Weighting: Stack-global,env,envC0,0.7340497374534607,0.7576218867465381,0.0374089814722538,Refitted on frozen splits
+Weighting: Stack-global,env,envC1,0.960561215877533,0.6686058463760506,0.04510665684938431,Refitted on frozen splits
+Weighting: Stack-global,env,envC2,1.1796305179595947,0.6379423311813597,0.0444880910217762,Refitted on frozen splits
+Weighting: Stack-global,env,envC3,1.5384724140167236,0.7254581315333339,0.09510203450918198,Refitted on frozen splits
+Weighting: Stack-global,env,envC4,0.9999704360961914,0.6717277374694979,0.03170096129179001,Refitted on frozen splits
+Weighting: Stack-global,loro,Africa,2.109541177749634,0.6541953648203648,0.1817120909690857,Refitted on frozen splits
+Weighting: Stack-global,loro,Asia,1.88881254196167,0.7172620293009824,0.14278244972229004,Refitted on frozen splits
+Weighting: Stack-global,loro,Europe,1.0833661556243896,0.6409284226989498,0.08860118687152863,Refitted on frozen splits
+Weighting: Stack-global,loro,Latin America,1.4341634511947632,0.5247483175370536,0.07922862470149994,Refitted on frozen splits
+Weighting: Stack-global,loro,N America,1.115781307220459,0.6677715106905071,0.04876714572310448,Refitted on frozen splits
+Weighting: Stack-global,loro,Oceania,1.276134729385376,0.44118410469771685,0.13473501801490784,Refitted on frozen splits
+Weighting: Stack-region,block10,fold0,1.0245224237442017,0.7200314327839762,0.025444529950618744,Refitted on frozen splits
+Weighting: Stack-region,block10,fold1,0.9301905632019043,0.7748043096684973,0.033539678901433945,Refitted on frozen splits
+Weighting: Stack-region,block10,fold2,0.8080036044120789,0.7864743302818894,0.049899399280548096,Refitted on frozen splits
+Weighting: Stack-region,block10,fold3,1.0848394632339478,0.7975070034091315,0.033397186547517776,Refitted on frozen splits
+Weighting: Stack-region,block10,fold4,0.8389315009117126,0.7742727614637109,0.019975658506155014,Refitted on frozen splits
+Weighting: Stack-region,env,envC0,0.7322422862052917,0.7930156291490659,0.04055473208427429,Refitted on frozen splits
+Weighting: Stack-region,env,envC1,0.9705092906951904,0.6607303629714286,0.04274863004684448,Refitted on frozen splits
+Weighting: Stack-region,env,envC2,1.231520175933838,0.6647027632172806,0.057653527706861496,Refitted on frozen splits
+Weighting: Stack-region,env,envC3,1.077367901802063,0.7548431432075416,0.042417220771312714,Refitted on frozen splits
+Weighting: Stack-region,env,envC4,0.9794854521751404,0.6743951874443467,0.02595560997724533,Refitted on frozen splits
+Weighting: Stack-region,loro,Africa,2.3161418437957764,0.6556462172087172,0.2056477665901184,Refitted on frozen splits
+Weighting: Stack-region,loro,Asia,1.4906444549560547,0.7195728391560965,0.11531640589237213,Refitted on frozen splits
+Weighting: Stack-region,loro,Europe,1.002598762512207,0.6357876676167442,0.05686720833182335,Refitted on frozen splits
+Weighting: Stack-region,loro,Latin America,1.3701449632644653,0.5393464392180424,0.08182942122220993,Refitted on frozen splits
+Weighting: Stack-region,loro,N America,1.1892411708831787,0.6851669272750283,0.0714726597070694,Refitted on frozen splits
+Weighting: Stack-region,loro,Oceania,1.324278473854065,0.4318161560485685,0.14483851194381714,Refitted on frozen splits
+Weighting: Theory,block10,fold0,1.0470674660727013,0.7312421139013464,0.026007070054349445,Refitted on frozen splits
+Weighting: Theory,block10,fold1,1.023893598771787,0.7479946491915768,0.042932450032189505,Refitted on frozen splits
+Weighting: Theory,block10,fold2,0.9292147828657918,0.711512684758022,0.05872849749263899,Refitted on frozen splits
+Weighting: Theory,block10,fold3,0.9972723649991991,0.7928845715596131,0.04314524743774458,Refitted on frozen splits
+Weighting: Theory,block10,fold4,0.8784457617658094,0.759334411572015,0.024018263892930686,Refitted on frozen splits
+Weighting: Theory,env,envC0,0.7974527697371447,0.7764912242361891,0.05930580208182649,Refitted on frozen splits
+Weighting: Theory,env,envC1,1.039987368804345,0.6551833062480718,0.05222711798025805,Refitted on frozen splits
+Weighting: Theory,env,envC2,1.193350818193717,0.6247333277193726,0.04143648409932427,Refitted on frozen splits
+Weighting: Theory,env,envC3,1.2650052568812957,0.7151782791249895,0.08365618391630063,Refitted on frozen splits
+Weighting: Theory,env,envC4,1.0282873256605565,0.6568109068406599,0.03533088914953087,Refitted on frozen splits
+Weighting: Theory,loro,Africa,1.9821300678650708,0.6914102737540238,0.17143259007131637,Refitted on frozen splits
+Weighting: Theory,loro,Asia,1.8337528226977515,0.7302950277178804,0.12783356610554097,Refitted on frozen splits
+Weighting: Theory,loro,Europe,1.138872811570792,0.6490215865954054,0.09174305762508692,Refitted on frozen splits
+Weighting: Theory,loro,Latin America,1.64072876570824,0.632228623882115,0.10081572688682612,Refitted on frozen splits
+Weighting: Theory,loro,N America,1.0774420073925328,0.6878782700983589,0.03868538995868239,Refitted on frozen splits
+Weighting: Theory,loro,Oceania,1.0783361139751735,0.6056478275167891,0.10399228251919726,Refitted on frozen splits
+Weighting: Uncertainty,block10,fold0,1.0662963390350342,0.7043310423922429,0.02273109182715416,Refitted on frozen splits
+Weighting: Uncertainty,block10,fold1,1.0769803524017334,0.7066377167433976,0.045429594814777374,Refitted on frozen splits
+Weighting: Uncertainty,block10,fold2,0.9655760526657104,0.6417541667810305,0.02829146385192871,Refitted on frozen splits
+Weighting: Uncertainty,block10,fold3,1.1464236974716187,0.7215630605532842,0.05558452010154724,Refitted on frozen splits
+Weighting: Uncertainty,block10,fold4,0.9718746542930603,0.6754696931563852,0.028701500967144966,Refitted on frozen splits
+Weighting: Uncertainty,env,envC0,0.7077721357345581,0.7806600783795583,0.03200046345591545,Refitted on frozen splits
+Weighting: Uncertainty,env,envC1,1.074238657951355,0.6083678341350681,0.05407916381955147,Refitted on frozen splits
+Weighting: Uncertainty,env,envC2,1.1360163688659668,0.5993141848972909,0.04283713921904564,Refitted on frozen splits
+Weighting: Uncertainty,env,envC3,1.4468847513198853,0.6683670089236691,0.10047728568315506,Refitted on frozen splits
+Weighting: Uncertainty,env,envC4,1.0614533424377441,0.636596294227576,0.04940715804696083,Refitted on frozen splits
+Weighting: Uncertainty,loro,Africa,2.369994640350342,0.6428709138084138,0.16552768647670746,Refitted on frozen splits
+Weighting: Uncertainty,loro,Asia,1.5585453510284424,0.7345194467953545,0.12667421996593475,Refitted on frozen splits
+Weighting: Uncertainty,loro,Europe,1.0868340730667114,0.6369255876075134,0.08237900584936142,Refitted on frozen splits
+Weighting: Uncertainty,loro,Latin America,1.5643947124481201,0.6256937320697338,0.12109162658452988,Refitted on frozen splits
+Weighting: Uncertainty,loro,N America,1.1193370819091797,0.6233590486489455,0.03319837152957916,Refitted on frozen splits
+Weighting: Uncertainty,loro,Oceania,1.053452491760254,0.5444392567412057,0.09536730498075485,Refitted on frozen splits
